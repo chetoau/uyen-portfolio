@@ -1,0 +1,133 @@
+.flower {
+    padding: 3em var(--left-right-padding);
+}
+
+.flower h3, .flower h1 {
+    font-family: 'Livvic Bold';
+}
+
+.coverbackground {
+    background-color: #DC654F;
+}
+
+.imageDown {
+    margin-bottom: -4px;
+}
+
+.coverbackground img {
+    width: 100%;
+}
+
+.intro h3 {
+    font-family: 'Livvic Bold';
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.introLeft {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+
+.leftChunk {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftChunk p {
+    margin: 0px;
+}
+
+.leftChunk h3 {
+    margin-bottom: 0px;
+}
+
+.introRight {
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+}
+
+.paddingTop {
+    padding-top: 3em;
+}
+
+.flowercolors {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.flowercolorspic {
+    max-width: 50%;
+}
+
+.flowercolorspic img {
+    width: 100%;
+}
+
+.flowercolorscontent {
+    width: 50%;
+}
+
+.flowerallmobile img, .postcard img, .vertical img, .flowermockups img, .oldflower img {
+    display: block;
+    width: 100%;
+}
+
+.flowerallmobile {
+    padding-top: 2em;
+}
+
+.postcard {
+    display: grid;
+    grid-template-columns: 1.07fr 0.93fr;
+    column-gap: 2em;
+}
+
+.vertical {
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: 0.38fr 0.31fr 0.31fr;
+    column-gap: 2em;
+}
+
+.flowermockups {
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: 0.77fr 1.23fr;
+    column-gap: 2em;
+}
+
+.rebrand, .reflection {
+    padding: 2em 0;
+}
+
+@media screen and (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .introLeft, .introRight, 
+    .flowercolorscontent, .flowercolorspic {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .flowercolors {
+        flex-direction: column;
+    }
+
+    .postcard, .vertical, .flowermockups {
+        grid-template-columns: 1fr;
+        row-gap: 2em;
+    }
+}

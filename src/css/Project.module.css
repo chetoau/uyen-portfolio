@@ -1,0 +1,63 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.item img {
+    width: 100%;
+}
+
+.keywords {
+    color: #797979;
+    margin: 0;
+}
+
+.name {
+    font-family: 'Livvic Bold';
+    font-size: 50px;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.name:hover {
+    transition: 0.5s;
+    color: rgb(98, 98, 98);
+}
+
+.subtitle {
+    font-size: 35px;
+    margin: 0;
+}
+
+.desc {
+    font-family: 'Livvic';
+    color: #828282;
+    font-size: 22px;
+    margin: 20px 0 0 0;
+}
+
+.image {
+    position: relative;
+    top: 0;
+    transition: top 0.5s;
+}
+
+.image:hover {
+    top: -0.5em;
+}
+
+.content {
+    width: 100%;
+}
+
+.content a {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .item {
+        flex-direction: column;
+    }
+}

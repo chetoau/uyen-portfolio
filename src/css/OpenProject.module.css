@@ -1,0 +1,99 @@
+.openproject {
+    padding: 3em var(--left-right-padding);
+}
+
+.openproject h3, .openproject h1 {
+    font-family: 'Livvic Bold';
+}
+
+.coverbackground {
+    background-color: #F9C12C;
+}
+
+.coverbackground img, .openproject img {
+    width: 100%;
+}
+
+.intro h3 {
+    font-family: 'Livvic Bold';
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.introLeft {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+
+.leftChunk {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftChunk p {
+    margin: 0px;
+}
+
+.leftChunk h3 {
+    margin-bottom: 0px;
+}
+
+.introRight {
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+}
+
+.paddingTop {
+    padding-top: 3em;
+}
+
+.missionbackground {
+    background-color: #F9C12C;
+}
+
+.mission {
+    padding: 1em var(--left-right-padding);
+}
+
+.valueTop {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: #2D5DED;
+}
+
+.values {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.url {
+    color: #2D5DED;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .introLeft, .introRight {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .values {
+        grid-template-columns: 1fr;
+    }
+}

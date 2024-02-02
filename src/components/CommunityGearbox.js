@@ -56,7 +56,7 @@ export default function CommunityGearbox() {
                             </div>
                             <div className={styles.leftChunk}>
                                 <h3>Team</h3>
-                                <p>Isabel Zheng (Project Mentor), Michid Bayambajav, Gily Yu, Green Yin</p>
+                                <p>Isabel Zheng (Project Mentor), Michid Byambajav, Gily Yu, Geena Yin</p>
                             </div>
                         </div>
                         <div className={styles.introRight}>

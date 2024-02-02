@@ -71,6 +71,43 @@ export default function InnovativeDesign() {
         if (activeTab === "spring") {
             return (
                 <div>
+                    <div>
+                    <div className={styles.intro}>
+                        <div className={styles.introLeft}>
+                            <div className={styles.leftChunk}>
+                                <h3>Role</h3>
+                                <p>Designer</p>
+                            </div>
+                            <div className={styles.leftChunk}>
+                                <h3>Duration</h3>
+                                <p>January - May 2023</p>
+                            </div>
+                            <div className={styles.leftChunk}>
+                                <h3>Disciplines</h3>
+                                <p>Marketing, Visual Design, Graphic Design, Web Design, Marketing Strategy, Product/Merch Design </p>
+                            </div>
+                            <div className={styles.leftChunk}>
+                                <h3>Team</h3>
+                                <p>Bonwoo Kuh, Erin McCann, Shirley Xiao, Jirachaya Kiriruangchai, Akira Ono, Emma Petit</p>
+                            </div>
+                        </div>
+                        <div className={styles.introRight}>
+                            <p>Innovative Design, started in 2008, is a UC Berkeley's student run creative agency with three disciplines: Design, Photography, and Web. With our slogan “Make Berkeley Beautiful”, marketing is the backbone of the club making assets for our various campaigns throughout the semester through physical designs to instagram posts ( we have over 2000+ followers! )</p>
+                            <p>During spring 2023, I joined the marketing team and had such a blast!  </p>
+                        </div>
+                    </div>
+                    <div className={styles.tabContainer}>
+                        <div className={activeTab === "spring" ? styles.activeTab1 : styles.inactiveTab1}
+                            onClick={() => handleClick("spring")}>
+                            <p>Spring 2023</p>
+                        </div>
+                        <div className={activeTab === "fall" ? styles.activeTab2 : styles.inactiveTab2}
+                            onClick={() => handleClick("fall")}>
+                            <p>Fall 2023</p>
+                        </div>
+                    </div>
+                    <hr className={styles.line} style={{marginTop:"30px"}}/>  
+                </div>
                     <h1 className="bold">Recruitment</h1>
                     <p className={styles.gray}>TIMELINE</p>
                     <img src={innod} alt="Innovative Design Recruitment Timeline" />
@@ -132,6 +169,41 @@ export default function InnovativeDesign() {
         } else if (activeTab === "fall") {
             return (
                 <div>
+                    <div className={styles.intro}>
+                        <div className={styles.introLeft}>
+                            <div className={styles.leftChunk}>
+                                <h3>Role</h3>
+                                <p>VP of Marketing</p>
+                            </div>
+                            <div className={styles.leftChunk}>
+                                <h3>Duration</h3>
+                                <p>August - December 2023</p>
+                            </div>
+                            <div className={styles.leftChunk}>
+                                <h3>Disciplines</h3>
+                                <p>Marketing, Visual Design, Graphic Design, Web Design, Marketing Strategy, Product/Merch Design </p>
+                            </div>
+                            <div className={styles.leftChunk}>
+                                <h3>Team</h3>
+                                <p>Halley Chang (Co-Lead) , Eileen Guo, Kyrene Tam, Alison Tam, Sofia Liashcheva, Lucy Yang</p>
+                            </div>
+                        </div>
+                        <div className={styles.introRight}>
+                            <p>Innovative Design, started in 2008, is a UC Berkeley's student run creative agency with three disciplines: Design, Photography, and Web. With our slogan “Make Berkeley Beautiful”, marketing is the backbone of the club making assets for our various campaigns throughout the semester through physical designs to instagram posts ( we have over 2000+ followers! )</p>
+                            <p>I had so much fun being on the marketing team during Spring 2023 and decided to lead the team during Fall 2023! This semester we went outside the lines by introducing new design styles as well as merch products. </p>
+                        </div>
+                    </div>
+                    <div className={styles.tabContainer}>
+                        <div className={activeTab === "spring" ? styles.activeTab1 : styles.inactiveTab1}
+                            onClick={() => handleClick("spring")}>
+                            <p>Spring 2023</p>
+                        </div>
+                        <div className={activeTab === "fall" ? styles.activeTab2 : styles.inactiveTab2}
+                            onClick={() => handleClick("fall")}>
+                            <p>Fall 2023</p>
+                        </div>
+                    </div>
+                    <hr className={styles.line} style={{marginTop:"30px"}}/>  
                     <h1 className="bold">Recruitment</h1>
                     <p className={styles.gray}>FLYERS</p>
                     <div className={styles.flyers}>
@@ -219,46 +291,7 @@ export default function InnovativeDesign() {
             </div>
             <div className="limitWidth">
                 <div className={styles.innod}>
-                    <div className={styles.intro}>
-                        <div className={styles.introLeft}>
-                            <div className={styles.leftChunk}>
-                                <h3>Role</h3>
-                                <p>Designer</p>
-                            </div>
-                            <div className={styles.leftChunk}>
-                                <h3>Duration</h3>
-                                <p>January - May 2023</p>
-                                <p>August - December 2023</p>
-                            </div>
-                            <div className={styles.leftChunk}>
-                                <h3>Disciplines</h3>
-                                <p>Marketing, Visual Design, Graphic Design, Web Design, Marketing Strategy, Product/Merch Design </p>
-                            </div>
-                            <div className={styles.leftChunk}>
-                                <h3>Team</h3>
-                                <p>Bonwoo Kuh, Erin McCann, Shirley Xiao, Jirachaya Kiriruangchai, Akira Ono, Emma Petit</p>
-                                <p>Halley Chang (Co-Lead) , Eileen Guo, Kyrene Tam, Alison Tam, Sofia Liashcheva, Lucy Yang</p>
-                            </div>
-                        </div>
-                        <div className={styles.introRight}>
-                            <p>Innovative Design, started in 2008, is a UC Berkeley's student run creative agency with three disciplines: Design, Photography, and Web. With our slogan “Make Berkeley Beautiful”, marketing is the backbone of the club making assets for our various campaigns throughout the semester through physical designs to instagram posts ( we have over 2000+ followers! )</p>
-                            <p>I had so much fun being on the marketing team during Spring 2023 and decided to lead the team during Fall 2023! This semester we went outside the lines by introducing new design styles as well as merch products. </p>
-                        </div>
-                    </div>
-                    <div className={styles.tabContainer}>
-                        <div className={activeTab === "spring" ? styles.activeTab1 : styles.inactiveTab1}
-                            onClick={() => handleClick("spring")}>
-                            <p>Spring 2023</p>
-                        </div>
-                        <div className={activeTab === "fall" ? styles.activeTab2 : styles.inactiveTab2}
-                            onClick={() => handleClick("fall")}>
-                            <p>Fall 2023</p>
-                        </div>
-                    </div>
-                    <hr className={styles.line} style={{marginTop:"30px"}}/>
-                    <div>
-                        {renderContent()}
-                    </div>
+                    {renderContent()}
                 </div>
             </div>
             <Contact />

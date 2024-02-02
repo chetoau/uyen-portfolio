@@ -461,33 +461,7 @@ export default function Pinterest() {
                 <div className={styles.pinterest}>
                     <h2 style={{fontFamily:"Karla Regular", fontSize:"30px"}}>BRINGING THE FEASIBILITY AND JOY TO PROMOTING </h2>
                     <p>To enhance the user flow and usability of the current three-step process, we refined each stage to specifically address users' pain points and frustrations at every step of the process while keeping the two main themes: ease of use and delightful designs. After all, many of these SMBs are already juggling many hats, the last thing we want to do is add stress to their advertisement on Pinterest. It should be easy, quick, while providing additional resources for future growth . </p>
-                    <div className={styles.endWrapper}>
-                    <div className={styles.wrapper}>
-                        <div className={styles.end1}>
-                            <h3><span className={styles.bold}>#1 EASY NAVIGATION TO PRE-EXISTING PINS</span> </h3>
-                            <p>CURRENT EXPERIENCE</p>
-                        </div>
-                        <div className={styles.end}>
-                            <img src={gif1} alt=""/>
-                        </div>
-                    </div>
-                    <div className={styles.wrapper}>
-                        <div className={styles.end1}>
-                            <h3><span className={styles.bold}>#2  SPECIFIED TARGETED AUDIENCE</span> </h3>
-                        </div>
-                        <div className={styles.end}>
-                            <img src={gif2} alt=""/>
-                        </div>
-                    </div>
-                    <div className={styles.wrapper}>
-                        <div className={styles.end1}>
-                            <h3><span className={styles.bold}>#3  UI IMPROVEMENT + DELIGHTFUL DESIGNS</span> </h3>
-                        </div>
-                        <div className={styles.endDifferent}>
-                            <img src={gif3} alt="" style={{width:"100%"}}/>
-                        </div>
-                    </div>
-                    </div>
+                    
                 </div>
             </div>
             <Contact />

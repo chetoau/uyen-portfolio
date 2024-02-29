@@ -240,7 +240,10 @@
         font-size: 23px;
         margin-top: 90px;
         text-align: center;
-        padding-right: 75px;
+    }
+
+    .right {
+        padding-right: 100px;
     }
 
     .underLined {
@@ -336,7 +339,7 @@
 }
 
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
     .moveableStickers {
         grid-template-columns: 1fr 1fr;
         column-gap: 0.5em;
@@ -367,11 +370,55 @@
         left: 430px;
         top: 80px;
     }
+
+    .right p {
+        font-size: 20px;
+    }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 500px) {
     .stickers {
         padding-top: 0;
     }
+
+    .right p {
+        font-size: 18px;
+       
+    }
+
+    .right {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .frontline {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .helloSticky {
+        font-size: 16px;
+        left: 50px;
+        top: 290px;
+        padding: 5px 20px;
+        border-radius: 25px;
+        white-space: nowrap;
+    }
+
+    .starSticky {
+         position: absolute;
+         height: 50px;
+         left: -150px;
+         top: 290px
+    }
+
+    .flowerSticky {
+        height: 27px;
+        left: 130px;
+        top: 270px;
+    }
+
+    
 }
 

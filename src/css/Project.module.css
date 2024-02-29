@@ -1,7 +1,7 @@
 .item {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 50px;
 }
 
 .item img {
@@ -41,6 +41,8 @@
     position: relative;
     top: 0;
     transition: top 0.5s;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
 .image:hover {

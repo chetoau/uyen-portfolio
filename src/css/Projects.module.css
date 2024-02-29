@@ -383,10 +383,11 @@
 
     .right p {
         font-size: 18px;
-       
+        margin-top: 20px;
     }
 
     .right {
+        margin-top: 0px;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -400,7 +401,7 @@
     .helloSticky {
         font-size: 16px;
         left: 50px;
-        top: 290px;
+        top: 230px;
         padding: 5px 20px;
         border-radius: 25px;
         white-space: nowrap;
@@ -410,13 +411,13 @@
          position: absolute;
          height: 50px;
          left: -150px;
-         top: 290px
+         top: 230px
     }
 
     .flowerSticky {
         height: 27px;
         left: 130px;
-        top: 270px;
+        top: 210px;
     }
 
     

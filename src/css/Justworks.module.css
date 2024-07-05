@@ -1,5 +1,5 @@
 .coverbackground {
-    background: linear-gradient(rgb(247,204,70), rgb(208,231,253));
+    background: #EDF3FF;
 }
 
 .imageDown {
@@ -22,9 +22,62 @@
     font-family: 'Livvic Bold';
 }
 
+.justworks h3 {
+    font-family: 'Karla Regular';
+    font-size: 25px;
+}
+
+.justworks p {
+    font-family: 'Karla Regular'
+}
+
 .intro h3, .justworks h1 {
     font-family: 'Livvic Bold';
+    font-size: 17px;
 }
+
+.spacing {
+    margin: 50px 0px;
+}
+
+.halfSpacing {
+    margin-top: 50px;
+}
+
+.expenses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-top: 50px;
+}
+
+.expenseContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expenseContainer img {
+    max-width: 300px;
+}
+
+.feedbackDrawing p {
+    font-family: 'Karla Regular';
+    font-size: 27px;
+}
+
+.feedbackDrawing h3 {
+    font-family: 'Livvic';
+    font-size: 14px;
+    color: #797979;
+}
+
+.feedbackDrawing {
+    background-color: #EFF3FB;
+    margin-top: 65px;
+    padding: 40px 80px;
+}
+
 
 .intro {
     display: flex;
@@ -65,19 +118,66 @@
     font-family: 'Livvic';
 }
 
+.lightGray {
+    color: #797979;
+}
+
 .line {
-    margin: 50px 0;
+    margin-top: 77px;
+    margin-bottom: 50px;
 }
 
 .imageAndContent {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding-top: 50px;
+    gap: 70px;
+}
+
+.question {
+    background-color: #EFF3FB;
+    margin-top: 50px;
+    padding: 35px 100px;
+}
+
+.blueHighlight {
+    background-color: #A8DCF4;
 }
 
 .content {
     width: 50%;
+}
+
+.smallComp {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.comp ul {
+    list-style-type: none;
+    font-family: 'Karla Regular';
+    color: #797979;
+    line-height: 30px;
+}
+
+.comp p {
+    font-family: 'Karla Regular';
+    color: #797979;
+}
+
+.userTest {
+    max-width: 250px; /* Adjust the max-width as needed */
+    width: 100%; /* Ensures the image takes the full width available up to max-width */
+    height: auto; /* Ensures the aspect ratio is maintained */
+    object-fit: contain;
+}
+
+.prototypesSec {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
 
 .image {
@@ -88,6 +188,20 @@
 .bold {
     font-family: 'Livvic Bold';
 }
+
+.infoSection {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-around;
+}
+
+.textPic {
+    max-width: 270px;
+    height: auto; /* Ensures the aspect ratio is maintained */
+    object-fit: contain;
+}
+
 
 .prototypes {
     display: flex;
@@ -138,8 +252,23 @@
 
 .findingsWrapper {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 40px;
+    
+}
+
+.findingsWrapper img {
+    max-width: 420px;
+}
+
+.withBlueLine {
+    border-left: solid 2px #75BFFE;
+    padding-left: 25px;
+}
+
+.withBlueLine p {
+    font-family: 'Karla Regular'
 }
 
 .reports {

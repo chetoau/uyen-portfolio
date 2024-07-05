@@ -20,7 +20,7 @@ export default function Projects() {
         <>
             <Helmet>
                 <title>Uyen Phan</title>
-                <meta name="description" content="Uyen is a product designer aiming to weave together simplicity, joy, and connection through human-centric thinking." />
+                <meta name="description" content="Uyen is a product designer aiming to weave together simplicity, joy, and connection through human-centric thinking and storytelling." />
             </Helmet>
             <div className="limitWidth">
                 <div className={styles.frontline}>
@@ -40,17 +40,16 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className={styles.right}>
-                        <p>Uyen is a <span className={styles.orangeBold}>product designer</span> who aims to weave together simplicity, joy, and connection through human-centric thinking.</p>
+                        <p>Uyen is a <span className={styles.orangeBold}>product designer</span> who aims to weave together simplicity, joy, and connection through human-centric thinking and storytelling.</p>
                         <ul>
                             <li>Studies Cognitive Science & Data Science <span className={styles.bold}>@ UC Berkeley</span></li>
-                            <li>Previously at <span className={styles.bold}>Justworks & Pinterest</span></li>
-                            <li>Currently a project mentor at <span className={styles.bold}>Unilever</span> through Berkeley Innovation </li>
+                            <li>Currently a product design intern at <span className={styles.bold}> @ Justworks</span></li>
                         </ul>
                     </div>
                 </div>
                 <div className={styles.projects}>
+                    <Project img={justworks} name="Justworks" subtitle="Mobile Directory" keywords="INTERNSHIP / MOBILE DESIGN / UX" description="Developed a mobile directory, streamlining access to important  information for over 1000 companies and their employees." url="/justworks" />
                     <Project img={pinterest} name="Pinterest" subtitle="Ad Creation Flow" keywords="COMPETITIVE ANALYSIS / UX / UI" description="Improving Pinterest's quick promote feature; dedicating an ad creation flow for small-medium businesses (SMBs) to promote their products effectively." url="/pinterest" />
-                    <Project img={justworks} name="Justworks" subtitle="Mobile Directory" keywords="UX RESEARCH / MOBILE DESIGN / UI" description="Developed a mobile directory, streamlining access to important  information for over 1000 companies and their employees." url="/justworks" />
                     <Project img={communitygearbox} name="Community Gearbox" subtitle="Community Building" keywords="PRODUCT DESIGN /  PROTOTYPING" description="Creating mobile features to increase accountability and foster community engagement." url="/community-gearbox" />
                     <Project img={re} name="RE:" subtitle="Bridging LDRs" keywords="DESIGN METHODOLOGY / UX / UI" description="RE: is a prompts + recording app designed to foster connection between two individuals, transcending physical barriers." url="/re" />
 

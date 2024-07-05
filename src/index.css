@@ -32,6 +32,11 @@ body {
 }
 
 @font-face {
+  font-family: 'Karla Medium';
+  src: url('./fonts/Karla-Medium.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Karla Medium Italic';
   src: url('./fonts/Karla-MediumItalic.ttf') format('truetype');
 }

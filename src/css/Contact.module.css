@@ -1,11 +1,15 @@
 .backgroundColor {
-    background-color: #FFEEE9;
+    background-color: #E9E9E9;
     margin-top: 100px;
 }
 
 .contact {
     text-align: left;
-    padding: 5em var(--left-right-padding)
+    padding: 5em var(--left-right-padding);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
 }
 
 .form {

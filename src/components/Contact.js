@@ -21,7 +21,7 @@ export default function Contact() {
         <div className={styles.backgroundColor}>
             <div className="limitWidth">
                 <div className={styles.contact}>
-                    <p className={styles.title}>Let's Chat!</p>
+                    <p className={styles.title}>LET'S CHAT!</p>
                     <form ref={form} onSubmit={sendEmail}>
                         <div className={styles.form}>
                             <div className={styles.leftForm}>

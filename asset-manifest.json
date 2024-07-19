@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5cc85f5.css",
-    "main.js": "/static/js/main.671de4eb.js",
+    "main.css": "/static/css/main.c2b67f37.css",
+    "main.js": "/static/js/main.c9774096.js",
     "static/media/jw_thanks.png": "/static/media/jw_thanks.ee7d14dd3230bd4b8abc.png",
     "static/media/innodAssets3.png": "/static/media/innodAssets3.3916f812f0f5ff03f5b9.png",
     "static/media/innodAssets.png": "/static/media/innodAssets.caa2ae41a3765be7205f.png",
@@ -29,6 +29,7 @@
     "static/media/cmyk1.png": "/static/media/cmyk1.83422e8e50a2e69768aa.png",
     "static/media/hex5.png": "/static/media/hex5.f9df00adcf8649da2508.png",
     "static/media/flyers2.png": "/static/media/flyers2.c3f315df090542180b74.png",
+    "static/media/community-gearbox.jpeg": "/static/media/community-gearbox.e7b0541e83916d779edf.jpeg",
     "static/media/ig8.png": "/static/media/ig8.fd1e14e2ef54f5c6e529.png",
     "static/media/openproject-design3.jpg": "/static/media/openproject-design3.cd4aa6bad58a9386b02b.jpg",
     "static/media/hex2.png": "/static/media/hex2.df7c96b1dfd9b664429d.png",
@@ -60,6 +61,7 @@
     "static/media/replicatingDesktop.png": "/static/media/replicatingDesktop.acb112c0ba1d4fd1511c.png",
     "static/media/alphabetDept.png": "/static/media/alphabetDept.fe06e7c5badc55b0ee59.png",
     "static/media/sniff-fullhome.jpg": "/static/media/sniff-fullhome.66058dee05082bc3ec18.jpg",
+    "static/media/flower-cover.png": "/static/media/flower-cover.821afedee76bae106a09.png",
     "static/media/jw_searchFunc.png": "/static/media/jw_searchFunc.9f54878df4ca6f0f6574.png",
     "static/media/Mockups 5.jpg": "/static/media/Mockups 5.80c06d48df3111b598a6.jpg",
     "static/media/flowertotebag.jpg": "/static/media/flowertotebag.4f8700f2871e2ddeba6d.jpg",
@@ -117,6 +119,7 @@
     "static/media/jw_hiddenInfo.png": "/static/media/jw_hiddenInfo.cde9fed6557c7bc66bb2.png",
     "static/media/Instagram Post 2.jpg": "/static/media/Instagram Post 2.8c96caa9e9557eba5c6b.jpg",
     "static/media/gearbox-persona-1.jpg": "/static/media/gearbox-persona-1.6317b81c41bfc9d7a6a1.jpg",
+    "static/media/sniffsniff-cover.png": "/static/media/sniffsniff-cover.a0cd4aea8d4819a3619a.png",
     "static/media/Mockups 4.jpg": "/static/media/Mockups 4.56a584cdb1c13782dd13.jpg",
     "static/media/peetshappytogether1.jpg": "/static/media/peetshappytogether1.add07f952765491390c8.jpg",
     "static/media/Instagram Post 1.jpg": "/static/media/Instagram Post 1.a06294f5521448b77237.jpg",
@@ -162,7 +165,6 @@
     "static/media/sniff-home.jpg": "/static/media/sniff-home.05b34d1b0d2c8321783e.jpg",
     "static/media/Instagram Grid 3.jpg": "/static/media/Instagram Grid 3.139ce31960725bac569c.jpg",
     "static/media/marchSuccess.png": "/static/media/marchSuccess.e90fd001d8c198812be5.png",
-    "static/media/community-gearbox.jpg": "/static/media/community-gearbox.50cee4241215d4acb5d7.jpg",
     "static/media/guidance_current.png": "/static/media/guidance_current.026d6e820ab5265e4dc2.png",
     "static/media/regirl.png": "/static/media/regirl.c568d847583c5f305264.png",
     "static/media/upload_current.png": "/static/media/upload_current.1724c5c9d3ab543cac46.png",
@@ -185,11 +187,11 @@
     "static/media/soler-cover.jpg": "/static/media/soler-cover.1f00e6740b543467560e.jpg",
     "static/media/aboutPerson.png": "/static/media/aboutPerson.266c9df3f5a653808016.png",
     "static/media/re.jpg": "/static/media/re.32e69b7af042ea519d1d.jpg",
-    "static/media/flower-cover.jpg": "/static/media/flower-cover.fe8c7ad207865a5cedfd.jpg",
     "static/media/reinterviews1.png": "/static/media/reinterviews1.5e67af4029efccb99ab6.png",
     "static/media/openproject-values1.jpg": "/static/media/openproject-values1.e5938003bb5a3ee2cdb2.jpg",
     "static/media/packaging2.png": "/static/media/packaging2.a1de88b558c77ca9601c.png",
     "static/media/RE_cover.png": "/static/media/RE_cover.602a8088662776932004.png",
+    "static/media/peets-cover.png": "/static/media/peets-cover.9d3f21e66ed0714ec548.png",
     "static/media/Instagram Post 9.jpg": "/static/media/Instagram Post 9.23fd964ed1565af52434.jpg",
     "static/media/soler.jpg": "/static/media/soler.3b236a044c63ebc64f52.jpg",
     "static/media/resurveys.png": "/static/media/resurveys.932682cb0a6c90587dcb.png",
@@ -223,9 +225,9 @@
     "static/media/searchBar.png": "/static/media/searchBar.a8738f3d7b56535beb37.png",
     "static/media/mustHave.png": "/static/media/mustHave.e17b4a3daca8755213e1.png",
     "static/media/gearbox-mobile-feature-3.png": "/static/media/gearbox-mobile-feature-3.1a9564083fbd1b81090f.png",
-    "static/media/sniffsniff-cover.jpg": "/static/media/sniffsniff-cover.0da8ca41aa1bacaca7f8.jpg",
     "static/media/openproject-values2.jpg": "/static/media/openproject-values2.b778a1556423a466feb1.jpg",
     "static/media/gearbox-affinity.png": "/static/media/gearbox-affinity.c8788279373f7099fb93.png",
+    "static/media/innovative-design-cover.png": "/static/media/innovative-design-cover.558f30c821b5cca73765.png",
     "static/media/Text.png": "/static/media/Text.5278c5b3ab208bd5d19b.png",
     "static/media/peetsfallfeelsgraphic4.jpg": "/static/media/peetsfallfeelsgraphic4.30369ae813dd9a50aa92.jpg",
     "static/media/openproject-colors.png": "/static/media/openproject-colors.271b56361033d3c51df0.png",
@@ -238,7 +240,6 @@
     "static/media/textBoxes.png": "/static/media/textBoxes.0826448f23eb0be06740.png",
     "static/media/remarketgaps.png": "/static/media/remarketgaps.02765e2918c310a365c8.png",
     "static/media/Mockups 6.png": "/static/media/Mockups 6.8f64543b8a1761b2d1b5.png",
-    "static/media/peets-cover.jpg": "/static/media/peets-cover.02fb2b2d09266b93eeb8.jpg",
     "static/media/peets.jpg": "/static/media/peets.970ae3fdf5303f078d96.jpg",
     "static/media/userTesting.png": "/static/media/userTesting.2fe2cd7626a2b79c114f.png",
     "static/media/heart-notif.png": "/static/media/heart-notif.01b9545d7edb09700d82.png",
@@ -249,7 +250,6 @@
     "static/media/Karla-Medium.ttf": "/static/media/Karla-Medium.3865ebfcffcb8469e5d3.ttf",
     "static/media/Karla-Regular.ttf": "/static/media/Karla-Regular.f950111be01b92a807ba.ttf",
     "static/media/pin.png": "/static/media/pin.ff775099ed7958c8295e.png",
-    "static/media/innovative-design-cover.jpg": "/static/media/innovative-design-cover.b068c7b7bf45035977cc.jpg",
     "static/media/green_tick.png": "/static/media/green_tick.f446f5ccf97b99d10b67.png",
     "static/media/location.png": "/static/media/location.2734f624c1ffd241bbe0.png",
     "static/media/refeedback.png": "/static/media/refeedback.bb4ecf29a18c74664f6f.png",
@@ -277,11 +277,11 @@
     "static/media/hagiaproextrabold.ttf": "/static/media/hagiaproextrabold.aa7b5a0d4a4d35baac99.ttf",
     "static/media/rankings.png": "/static/media/rankings.7ef80a01d9bc78dba608.png",
     "index.html": "/index.html",
-    "main.a5cc85f5.css.map": "/static/css/main.a5cc85f5.css.map",
-    "main.671de4eb.js.map": "/static/js/main.671de4eb.js.map"
+    "main.c2b67f37.css.map": "/static/css/main.c2b67f37.css.map",
+    "main.c9774096.js.map": "/static/js/main.c9774096.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5cc85f5.css",
-    "static/js/main.671de4eb.js"
+    "static/css/main.c2b67f37.css",
+    "static/js/main.c9774096.js"
   ]
 }

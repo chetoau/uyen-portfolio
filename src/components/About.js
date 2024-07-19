@@ -44,7 +44,7 @@ export default function About() {
                             <ul>
                                 <li className={styles.previouslyText}><span className="bold">Justworks,</span> Product Design Intern (Payments & Taxes Team ‘24) </li>
                                 <li className={styles.previouslyText}><span className="bold">Pinterest,</span> Product Design Consultant</li>
-                                <li className={styles.previouslyText}><span className="bold">Justworks,</span> Product Design Intern</li>
+                                <li className={styles.previouslyText}><span className="bold">Justworks,</span> Product Design Intern (Mobile Team, ‘23)</li>
                                 <li className={styles.previouslyText}><span className="bold">Peet's Coffee,</span> Design Intern</li>
                                 <li className={styles.previouslyText}><span className="bold">Community Gearbox,</span> Product Design Consultant</li>
                                 <li className={styles.previouslyText}><span className="bold">Innovative Design,</span> VP of Marketing</li>

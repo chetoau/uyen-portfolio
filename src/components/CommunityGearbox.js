@@ -1,5 +1,5 @@
 import styles from '../css/CommunityGearbox.module.css';
-import communityGearbox from '../images/community-gearbox.jpg';
+import communityGearbox from '../images/community-gearbox.jpeg';
 import { Helmet } from "react-helmet";
 import Contact from './Contact';
 import rockClimber from '../images/gearbox-rock-climber.png';
@@ -62,7 +62,6 @@ export default function CommunityGearbox() {
                         <div className={styles.introRight}>
                             <p>Community Gearbox, a San Francisco-based startup, aspires to foster a sustainable community and promote a circular economy by facilitating item borrowing and lending among its users.</p>
                             <p>The CEO approached us with the challenge of enhancing the collaborative aspects of this platform, with the aim of making the borrowing and lending experience more enjoyable and rewarding. The objective was to create an environment where individuals lending items not only feel valued but also encouraged to share more.</p>
-                            <p>To address this challenge, our team undertook a structured approach consisting of four key sprints: Research, Synthesis, Ideation, and Prototyping</p>
                         </div>
                     </div>
                     <hr className="line"/>

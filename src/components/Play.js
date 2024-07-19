@@ -1,13 +1,13 @@
 import Contact from './Contact';
 import styles from '../css/Play.module.css';
 import SFMoma from '../images/sfmoma-cover.jpg';
-import SniffSniff from '../images/sniffsniff-cover.jpg';
+import SniffSniff from '../images/sniffsniff-cover.png';
 import { Helmet } from "react-helmet";
 import PlayProject from './PlayProject';
-import flower from '../images/flower-cover.jpg';
+import flower from '../images/flower-cover.png';
 import Soler from '../images/soler-cover.jpg';
-import InnovativeDesign from '../images/innovative-design-cover.jpg';
-import peets from '../images/peets-cover.jpg';
+import InnovativeDesign from '../images/innovative-design-cover.png';
+import peets from '../images/peets-cover.png';
 import flowerPerson from '../images/flowerPerson.png'
 import underline from '../images/underline.png'
 

@@ -13,10 +13,7 @@ import icon3 from '../images/gearbox-icon-3.png';
 import quote from '../images/gearbox-interview-quote.png';
 import synthesis from '../images/gearbox-synthesis.png';
 import conceptMapping from '../images/gearbox-concept-mapping.png';
-import insight1 from '../images/gearbox-insight-1.png';
-import insight2 from '../images/gearbox-insight-2.png';
-import insight3 from '../images/gearbox-insight-3.png';
-import insight4 from '../images/gearbox-insight-4.png';
+import keyInsights from '../images/gearbox-key-insights.png';
 import persona1 from '../images/gearbox-persona-1.jpg';
 import persona2 from '../images/gearbox-persona-2.jpg';
 import mobileFeature1 from '../images/gearbox-mobile-feature-1.png';
@@ -25,6 +22,8 @@ import mobileFeature3 from '../images/gearbox-mobile-feature-3.png';
 import finalDesign1 from '../images/gearbox-final-design-1.jpg';
 import finalDesign2 from '../images/gearbox-final-design-2.jpg';
 import finalDesign3 from '../images/gearbox-final-design-3.jpg';
+import hypoImg from '../images/hypoImg.png';
+import microSparkle from '../images/microSparkle.png';
 
 export default function CommunityGearbox() {
     return (
@@ -63,28 +62,41 @@ export default function CommunityGearbox() {
                             <p>Community Gearbox, a San Francisco-based startup, aspires to foster a sustainable community and promote a circular economy by facilitating item borrowing and lending among its users.</p>
                             <p>The CEO approached us with the challenge of enhancing the collaborative aspects of this platform, with the aim of making the borrowing and lending experience more enjoyable and rewarding. The objective was to create an environment where individuals lending items not only feel valued but also encouraged to share more.</p>
                         </div>
+                        
                     </div>
-                    <hr className="line"/>
-                    <p className={styles.gray}>GETTING TO KNOW THE COMPANY</p>
+                    <button className={styles.skip}>skip here to final designs</button>
+                    <h1>⚙️ What is Community Gearbox?</h1>
                     <div className={styles.gridWrapper}>
                         <div>
-                            <h1>⚙️ What is Community Gearbox?</h1>
                             <p>Community Gearbox is a platform where people can <span className={`${styles.green} bold`}>lend and borrow items for free,</span> hence building deeper connections, decreasing individual consumption, and creating an abundance of shared resources.</p>
                             <h2 className={`${styles.green} bold`}>“Together we have so much”</h2>
                         </div>
                         <img src={rockClimber} alt="Rock Climber Design" />
                     </div>
+                    <div className={styles.hypoContainer}>
+                        <div className={styles.hypothesis}>
+                            <h1>“A REAL SENSE OF ABUNDANCE”</h1>
+                            <h4>HYPOTHESIS</h4>
+                            <hr/>
+                            <p>the average group of millennial friends have a surprising amount of things to share with each other - somewhere between $20k to $40k worth between them</p>
+                            <a href="https://communitygearbox.com/">https://communitygearbox.com/</a>
+                        </div>
+                        <img src={hypoImg} alt=""/>
+                    </div>
+
                     <hr className="line"/>
-                    <p className={styles.gray}>THE ASK</p>
-                    <h1>⭐️ Problem Scope</h1>
+
+                    <h1>Problem Scope</h1>
+                    <p>The CEO approached us with the challenge of enhancing the collaborative aspects of this platform, with the aim of making the borrowing and lending experience more enjoyable and rewarding. The objective was to create an environment where individuals lending items not only feel valued but also encouraged to share more.</p>
                     <div className={styles.tag}>
                         <div className={styles.leftSide}></div>
                         <div className={styles.rightSide}>
                             <p className={styles.rightSideContent}>HMW Design more collaborative features within Community Gearbox to make borrowing amongst a network of trusting people delightful and/or rewarding, so people lending items feel appreciated and compelled to share more and borrowers think of Community Gearbox before purchasing a new item?</p>
+                            <img src={microSparkle} alt="" />
                         </div>
                     </div>
                     <hr className="line"/>
-                    <p className={styles.gray}>BREAKING DOWN THE HOW MIGHT WE?</p>
+                    <h1>BREAKING DOWN THE PROBLEM</h1>
                     <p>Wow, that was a mouthful! Let's break down the problem scope into bite-sized pieces.</p>
                     <div className={styles.hmw}>
                         <div className={styles.bulletPoint}>
@@ -111,13 +123,14 @@ export default function CommunityGearbox() {
                         <img src={collaboration} alt="GearBox Collaboration Design" />
                     </div>
                     <hr className="line"/>
-                    <p className={styles.gray}>DIVING INTO RESEARCH</p>
-                    <h1>⭐️ Approaches & Methods</h1>
+                    <h1 className={styles.gray}>DIVING INTO RESEARCH</h1>
+                    <p>Research before designing is crucial because it involves understanding various human behaviors crucial to this project, such as collaboration, trust, and appreciation, which are similar but distinct in their own way. By uncovering these insights, research identifies opportunities for innovation and validates assumptions about user preferences, reducing the risks of developing features that may not resonate with users. This approach minimizes costly redesigns and ensures that design decisions are grounded in evidence, thereby enhancing user engagement, satisfaction, and the overall success of the platform.</p>
                     <img src={affinity} alt="Research Approach and Method Design Flow" />
                     <hr className="line"/>
-                    <p className={styles.gray}>SURVEYS</p>
+                    <h1> USER SURVEYS</h1>
                     <p>In our product design process, we initiate our user research with surveys. Given the diverse age range of our user base, spanning from young to older individuals, we have strategically chosen surveys as an effective means to gather insights from various age demographics.</p>
                     <p className={`${styles.green} bold`}>100+ responses</p>
+                    <h4>GOALS OF USER SURVEYS</h4>
                     <ul>
                         <li>Identify a variety of potential interviewees that demonstrate unique borrowing/ lending habits </li>
                         <li>Understand borrowing behavior</li>
@@ -147,6 +160,8 @@ export default function CommunityGearbox() {
                         </div>
                         <img src={pie2} alt="Survey Pie Chart Design" />
                     </div>
+                    <h4>SURVEY INSIGHTS</h4>
+                    <hr/>
                     <div className={styles.groupTags}>
                         <div className={styles.tag}>
                             <div className={styles.leftSide}></div>
@@ -192,7 +207,7 @@ export default function CommunityGearbox() {
                         <img src={quote} alt="User Interview Quote" />
                     </div>
                     <hr className="line"/>
-                    <h1>⭐️ Synthesis</h1>
+                    <h1>PUTTING ALL THE RESEARCH TOGETHER</h1>
                     <p className={styles.gray}>AFFINITY DIAGRAM</p>
                     <div className={styles.synthesis}>
                         <div className={styles.listingPoints}>
@@ -213,9 +228,11 @@ export default function CommunityGearbox() {
                                 <p>Aspects of digital experiences that people enjoy</p>
                             </div>
                         </div>
-                        <img src={synthesis} alt="Synthesis Affinity Diagram" />
+                        <div>
+                            <img src={synthesis} alt="Synthesis Affinity Diagram" />
+                            <p className={styles.gray}>click image to enlarge</p>
+                        </div>
                     </div>
-                    <hr className="line"/>
                     <p className={styles.gray}>CONCEPT MAPPING</p>
                     <p>Connecting reoccuring patterns to the values, motivations, and priorities of potential users</p>
                     <div className={styles.synthesis}>
@@ -236,29 +253,8 @@ export default function CommunityGearbox() {
                         <img className={styles.conceptMapping} src={conceptMapping} alt="Concept Mapping Diagram Design" />
                     </div>
                     <hr className="line"/>
-                    <h1>⭐️ Key Insights</h1>
-                    <div className={styles.insights}>
-                        <div className={styles.insight}>
-                            <img src={insight1} alt="" />
-                            <p className="bold">Lending Habits & Altruism</p>
-                            <p>A willingness to lend depends on familiarity, and lenders are motivated by the act of doing good to strengthen mutual respect and aid.</p>
-                        </div>
-                        <div className={styles.insight}>
-                            <img src={insight2} alt="" />
-                            <p className="bold">Borrowing Habits</p>
-                            <p>People borrow for temporary and inconsistent usage, saving money, and convenience, since the exchange process can be difficult.</p>
-                        </div>
-                        <div className={styles.insight}>
-                            <img src={insight3} alt="" />
-                            <p className="bold">Lending Habits & Altruism</p>
-                            <p>People feel more connected to others in digital communities when there is more unfiltered and casual exchange of comments or content.</p>
-                        </div>
-                        <div className={styles.insight}>
-                            <img src={insight4} alt="" />
-                            <p className="bold">Lending Habits & Altruism</p>
-                            <p>People love to be appreciated for their contributions and feel reciprocated through: words of affirmation, IOUs, gifts and being publicly acknowledged.</p>
-                        </div>
-                    </div>
+                    <h1>KEY INSIGHTS MOVING FORWARD</h1>
+                    <img src={keyInsights} alt="Key insights"/>
                     <hr className="line"/>
                     <p className={styles.gray}>USER PERSONAS & JOURNEYS</p>
                     <img className={styles.persona} src={persona1} alt="Gearbox Persona Journey" />

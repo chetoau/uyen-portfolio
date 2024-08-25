@@ -33,9 +33,10 @@ export default function Header() {
                     <NavLink to="/"><img src={logo} width="50px" alt="Uyen Phan Logo"/></NavLink>
                 </div>
                 <div className={active ? `${styles.rightHeaderActive}` : `${styles.rightHeader}`} onClick={deActivate}>
-                    <NavLink to="/" className={activeLink}>PROJECTS</NavLink>
-                    <NavLink to="/play" className={activeLink}>PLAY</NavLink>
-                    <NavLink to="/about" className={activeLink}>ABOUT</NavLink>
+                    <NavLink to="/" className={activeLink} style={{fontFamily:"Karla Medium", fontSize: "20px"}}>PROJECTS</NavLink>
+                    <NavLink to="/play" className={activeLink} style={{fontFamily:"Karla Medium", fontSize: "20px"}}>PLAY</NavLink>
+                    <NavLink to="/about" className={activeLink} style={{fontFamily:"Karla Medium", fontSize: "20px"}}>ABOUT</NavLink>
+                    <a href="https://www.linkedin.com/in/uyentphan/" className={activeLink}><img src={linkedin} style={{width: '22px'}} /></a>
                 </div>
                 <div className={styles.hamburger}>
                     <div className={styles.hamburger} onClick={hamburgerMode}>

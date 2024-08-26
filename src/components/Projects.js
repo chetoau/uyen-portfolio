@@ -44,7 +44,7 @@ export default function Projects() {
                         <p>Uyen is a <span className={styles.orangeBold}>product designer</span> who aims to weave together simplicity, joy, and connection through human-centric thinking and storytelling.</p>
                         <ul>
                             <li>Studied Cognitive Science & Data Science <span className={styles.bold}>@ UC Berkeley</span></li>
-                            <li>Currently a product design intern at <span className={styles.bold}> @ Justworks</span></li>
+                            <li>Previously a Product Design Intern <span className={styles.bold}> @ Justworks</span></li>
                         </ul>
                     </div>
                 </div>

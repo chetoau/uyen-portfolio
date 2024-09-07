@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2b67f37.css",
-    "main.js": "/static/js/main.c9774096.js",
+    "main.css": "/static/css/main.5d660c57.css",
+    "main.js": "/static/js/main.d37e704a.js",
     "static/media/jw_thanks.png": "/static/media/jw_thanks.ee7d14dd3230bd4b8abc.png",
     "static/media/innodAssets3.png": "/static/media/innodAssets3.3916f812f0f5ff03f5b9.png",
     "static/media/innodAssets.png": "/static/media/innodAssets.caa2ae41a3765be7205f.png",
@@ -41,6 +41,7 @@
     "static/media/openproject-design1.jpg": "/static/media/openproject-design1.dc677384aca1301c8903.jpg",
     "static/media/hex3.png": "/static/media/hex3.cdf5eaf73fda90145bce.png",
     "static/media/ig5.png": "/static/media/ig5.b48d3acf5d459376ef1d.png",
+    "static/media/justworks-editing-cover.jpeg": "/static/media/justworks-editing-cover.2e9106eb67a20e4d3d46.jpeg",
     "static/media/openproject-design2.jpg": "/static/media/openproject-design2.ed602379ae6236c0f592.jpg",
     "static/media/profilepageGif.gif": "/static/media/profilepageGif.9aa68b0d6b0a4fcfdc21.gif",
     "static/media/ig9.png": "/static/media/ig9.aa6ba486b8ef3f89b362.png",
@@ -181,6 +182,7 @@
     "static/media/reapplistenback.png": "/static/media/reapplistenback.f03a3c26ab522d3b53c3.png",
     "static/media/justworks-cover.png": "/static/media/justworks-cover.ce14d20ce5403e1ec51d.png",
     "static/media/narrowingdowngraph.jpg": "/static/media/narrowingdowngraph.1fd3a8cef54880e71772.jpg",
+    "static/media/justworks-2024-cover.png": "/static/media/justworks-2024-cover.d94b537a28500b07e2c1.png",
     "static/media/pin_unique.png": "/static/media/pin_unique.6a1cb0286b7a0bd40d3b.png",
     "static/media/Instagram Grid 6.jpg": "/static/media/Instagram Grid 6.8af933d6ee1ea3dece9a.jpg",
     "static/media/flower.jpg": "/static/media/flower.e5e4015324b4070ea46b.jpg",
@@ -277,11 +279,11 @@
     "static/media/hagiaproextrabold.ttf": "/static/media/hagiaproextrabold.aa7b5a0d4a4d35baac99.ttf",
     "static/media/rankings.png": "/static/media/rankings.7ef80a01d9bc78dba608.png",
     "index.html": "/index.html",
-    "main.c2b67f37.css.map": "/static/css/main.c2b67f37.css.map",
-    "main.c9774096.js.map": "/static/js/main.c9774096.js.map"
+    "main.5d660c57.css.map": "/static/css/main.5d660c57.css.map",
+    "main.d37e704a.js.map": "/static/js/main.d37e704a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2b67f37.css",
-    "static/js/main.c9774096.js"
+    "static/css/main.5d660c57.css",
+    "static/js/main.d37e704a.js"
   ]
 }

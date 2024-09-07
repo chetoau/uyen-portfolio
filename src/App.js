@@ -15,6 +15,7 @@ import CommunityGearbox from './components/CommunityGearbox';
 import InnovativeDesign from './components/InnovativeDesign';
 import Pinterest from './components/Pinterest';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import JustworksEditing from './components/JustworksEditing';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
           <Route path="/sniff-sniff" element={<SniffSniff />} />
           <Route path="/sf-moma" element={<SFMoma />} />
           <Route path="/community-gearbox" element={<CommunityGearbox />} />
-          <Route path="/justworks" element={<Justworks />} />
+          <Route path="/justworks-mobile" element={<Justworks />} />
+          <Route path="/justworks-editing" element={<JustworksEditing />} />
           <Route path="/innovative-design" element={<InnovativeDesign />} />
           <Route path="/soler" element={<Soler />} />
           <Route path="/pinterest" element={<Pinterest />} />

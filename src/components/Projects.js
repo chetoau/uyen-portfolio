@@ -13,7 +13,8 @@ import { Helmet } from "react-helmet";
 import pinterest from '../images/pinterest-cover.png'
 import flowerSticky from '../images/orange-flower.png'
 import starSticky from '../images/orange-star.png'
-import underline from '../images/underline.png'
+import underline from '../images/underline.png';
+import justworksEditing from '../images/justworks-2024-cover.png';
 
 export default function Projects() {
     return (
@@ -43,12 +44,13 @@ export default function Projects() {
                         <p>Uyen is a <span className={styles.orangeBold}>product designer</span> who aims to weave together simplicity, joy, and connection through human-centric thinking and storytelling.</p>
                         <ul>
                             <li>Studied Cognitive Science & Data Science <span className={styles.bold}>@ UC Berkeley</span></li>
-                            <li>Currently a product design intern at <span className={styles.bold}> @ Justworks</span></li>
+                            <li>Previously a Product Design Intern <span className={styles.bold}> @ Justworks</span></li>
                         </ul>
                     </div>
                 </div>
                 <div className={styles.projects}>
-                    <Project img={justworks} name="Justworks" subtitle="Mobile Directory" keywords="INTERNSHIP / MOBILE DESIGN / UX" description="Developed a mobile directory, streamlining access to important  information for over 1000 companies and their employees." url="/justworks" />
+                    <Project img={justworksEditing} name="Justworks" subtitle="Editing Permissions" keywords="CROSS-PLATFORMS / UX / INTERNSHIP" description="Integrated editing feature for both internal and external use, built around specific use cases and editing permissions." url="/justworks-editing" />
+                    <Project img={justworks} name="Justworks" subtitle="Mobile Directory" keywords="INTERNSHIP / MOBILE DESIGN / UX" description="Developed a mobile directory, streamlining access to important  information for over 1000 companies and their employees." url="/justworks-mobile" />
                     <Project img={pinterest} name="Pinterest" subtitle="Ad Creation Flow" keywords="COMPETITIVE ANALYSIS / UX / UI" description="Improving Pinterest's quick promote feature; dedicating an ad creation flow for small-medium businesses (SMBs) to promote their products effectively." url="/pinterest" />
                     <Project img={communitygearbox} name="Community Gearbox" subtitle="Community Building" keywords="PRODUCT DESIGN /  PROTOTYPING" description="Creating mobile features to increase accountability and foster community engagement." url="/community-gearbox" />
                     <Project img={re} name="RE:" subtitle="Bridging LDRs" keywords="DESIGN METHODOLOGY / UX / UI" description="RE: is a prompts + recording app designed to foster connection between two individuals, transcending physical barriers." url="/re" />

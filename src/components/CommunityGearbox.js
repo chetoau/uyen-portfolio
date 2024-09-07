@@ -16,14 +16,17 @@ import conceptMapping from '../images/gearbox-concept-mapping.png';
 import keyInsights from '../images/gearbox-key-insights.png';
 import persona1 from '../images/gearbox-persona-1.jpg';
 import persona2 from '../images/gearbox-persona-2.jpg';
-import mobileFeature1 from '../images/gearbox-mobile-feature-1.png';
-import mobileFeature2 from '../images/gearbox-mobile-feature-2.png';
-import mobileFeature3 from '../images/gearbox-mobile-feature-3.png';
-import finalDesign1 from '../images/gearbox-final-design-1.jpg';
-import finalDesign2 from '../images/gearbox-final-design-2.jpg';
-import finalDesign3 from '../images/gearbox-final-design-3.jpg';
+import ideaBoard from '../images/idea-board.png' ;
 import hypoImg from '../images/hypoImg.png';
 import microSparkle from '../images/microSparkle.png';
+import grayBox from '../images/gray-box.png';
+import otherPlatforms from '../images/other-platforms.png';
+import featuredFeats from '../images/featured-features.png';
+import publicizing from '../images/publicizing.png';
+import lendingBoard from '../images/lending-leaderboard.png';
+import lofi from '../images/low-fidelity.png';
+import homePage from '../images/home-page-gif.gif';
+import groupPic from '../images/gearbox-group-pic.png';
 
 export default function CommunityGearbox() {
     return (
@@ -62,10 +65,12 @@ export default function CommunityGearbox() {
                             <p>Community Gearbox, a San Francisco-based startup, aspires to foster a sustainable community and promote a circular economy by facilitating item borrowing and lending among its users.</p>
                             <p>The CEO approached us with the challenge of enhancing the collaborative aspects of this platform, with the aim of making the borrowing and lending experience more enjoyable and rewarding. The objective was to create an environment where individuals lending items not only feel valued but also encouraged to share more.</p>
                         </div>
-                        
                     </div>
-                    <button className={styles.skip}>skip here to final designs</button>
-                    <h1>⚙️ What is Community Gearbox?</h1>
+                    <div className={styles.skipCont}>
+                        <button className={styles.skip}>skip here to final designs</button>
+                    </div>
+                    
+                    <h1>⚙️ WHAT IS COMMUNITY GEARBOX?</h1>
                     <div className={styles.gridWrapper}>
                         <div>
                             <p>Community Gearbox is a platform where people can <span className={`${styles.green} bold`}>lend and borrow items for free,</span> hence building deeper connections, decreasing individual consumption, and creating an abundance of shared resources.</p>
@@ -86,7 +91,7 @@ export default function CommunityGearbox() {
 
                     <hr className="line"/>
 
-                    <h1>Problem Scope</h1>
+                    <h1>PROBLEM SCOPE</h1>
                     <p>The CEO approached us with the challenge of enhancing the collaborative aspects of this platform, with the aim of making the borrowing and lending experience more enjoyable and rewarding. The objective was to create an environment where individuals lending items not only feel valued but also encouraged to share more.</p>
                     <div className={styles.tag}>
                         <div className={styles.leftSide}></div>
@@ -256,56 +261,218 @@ export default function CommunityGearbox() {
                     <h1>KEY INSIGHTS MOVING FORWARD</h1>
                     <img src={keyInsights} alt="Key insights"/>
                     <hr className="line"/>
-                    <p className={styles.gray}>USER PERSONAS & JOURNEYS</p>
-                    <img className={styles.persona} src={persona1} alt="Gearbox Persona Journey" />
+                    <h1>PUTTING ALL THE RESEARCH TOGETHER</h1>
+                    <p className={styles.gray}>USER PERSONA</p>
+                    <p>Found out that we want to focus on the lender aspects.</p>
                     <img className={styles.persona} src={persona2} alt="Gearbox Persona Journey" />
+                    <p className={styles.gray}>USER PERSONA</p>
+                    <p>Found out that we want to focus on the lender aspects.</p>
+                    <img className={styles.persona} src={persona1} alt="Gearbox Persona Journey" />
+                    <p>The pain points for The Loyal Lender emerge towards the end of their journey. They feel good about sharing their items with people in need. However, because the interaction is online, they might be unsure about the communication and boundaries they need to set for the items exchanged. This uncertainty can lead to potential damages and confusion about how to handle such situations. Consequently, their trust is compromised, which may discourage them from using the app further</p>
                     <hr className="line"/>
-                    <h1>⭐️ Mobile Features</h1>
-                    <div className={styles.mobileFeatures}>
-                        <div className={styles.mobileFeature}>
-                            <div>
-                                <p className={`${styles.green} bold`}>Featured Feats!</p>
-                                <ul>
-                                    <li>Motivational</li>
-                                    <li>Community-building</li>
-                                </ul>
-                            </div>
-                            <img src={mobileFeature1} alt="Mobile Feature Design" />
+                    <h1>RESEARCH TO DESIGN DECISIONS</h1>
+                    <p>That’s a lot of research methods, but what does it all mean when making design descisions? </p>
+                    <div className={styles.researchCont}>
+                        <div className={styles.research1}>
+                            <p>1. UNDERSTAND WHAT THESE FEATURES SHOULD BE SOLVING</p>
+                            <img src={grayBox} alt="" />
                         </div>
-                        <div className={styles.mobileFeature}>
-                            <div>
-                                <p className={`${styles.green} bold`}>Publicizing Borrowing and Lending</p>
-                                <ul>
-                                    <li>Accountability</li>
-                                    <li>Motivational</li>
-                                </ul>
-                            </div>
-                            <img src={mobileFeature2} alt="Mobile Feature Design" />
+                        <div className={styles.research2}>
+                            <p>2. IDEATING IDEAS AND RATIONALIZING THEM</p>
+                            <img src={ideaBoard} alt="" />
                         </div>
-                        <div className={styles.mobileFeature}>
-                            <div>
-                                <p className={`${styles.green} bold`}>Lending Leaderboard</p>
-                                <ul>
-                                    <li>Public acknowledgment</li>
-                                    <li>Motivational</li>
-                                </ul>
-                            </div>
-                            <img src={mobileFeature3} alt="Mobile Feature Design" />
+                        <div className={styles.research3}>
+                            <p>3. QUICK RESEARCH OF WHAT OTHER PLATFORMS ARE DOING TO SPARK TRUST</p>
+                            <img src={otherPlatforms} alt="" />
                         </div>
                     </div>
+                    <p>4. FINALIZE WITH DESIGN DECISIONS</p>
+                    <img src={featuredFeats} alt="" />
+                    <img src={publicizing} alt="" />
+                    <img src={lendingBoard} alt="" />
                     <hr className="line"/>
-                    <p className={styles.gray}>RATIONALE</p>
-                    <p>We incorporated a borrowing feed, leaderboard, and interactive features to increase accountability and community engagement throughout the app.</p>
-                    <ul className={styles.bottomList}>
-                        <li><span className={`${styles.green} bold`}>Borrowing feed -</span> A community feed that shows the borrowing transactions of a user and their friends, as a way to stay updated, share photos, and show appreciation.</li>
-                        <li><span className={`${styles.green} bold`}>Lending leaderboard -</span> A leaderboard between a user and their friends that incentivizes lending through friendly competition.</li>
-                        <li><span className={`${styles.green} bold`}>Interactive features - </span> Emoji comment reactions that generate community interaction and a more visual interface.</li>
-                    </ul>
+
+                    <h1>STARTING THE DESIGN PROCESS</h1>
+                    <p>Our team created low-fidelity and mid-fidelity designs to help us vision out the designs a lot better. These are some of the many screens we designed to explore our ideas further. </p>
+                    <img src={lofi} alt="" />
+
                     <hr className="line"/>
-                    <h1>⭐️ Final Designs</h1>
-                    <img className={styles.finalDesign} src={finalDesign1} alt="Community Gearbox Final Design" />
-                    <img className={styles.finalDesign} src={finalDesign2} alt="Community Gearbox Final Design" />
-                    <img className={styles.finalDesign} src={finalDesign3} alt="Community Gearbox Final Design" />
+                    <h1>🪄 FINAL DESIGNS (TA-DA!)</h1>
+                    
+                    <div className={styles.finalCont}>
+                        <div className={styles.darkGreen}>
+                            <h2>HOME PAGE</h2>
+                        </div>
+                        <div className={styles.halfGreen}>
+                            <div className={styles.left}>
+                                <h3>💬  Community Building</h3>
+                            </div>
+                            <div className={styles.middle}>
+                                <img src={homePage} alt="" />
+                            </div>
+                            <div className={styles.right}>
+                                <div className={styles.subPoint}>
+                                    <div className={styles.finalHeading}>
+                                        <img/>
+                                        <h3>PRIVATE GROUPS</h3>
+                                    </div>
+                                    <div className={styles.finalText}>
+                                        <p>Horizontal scroll for private groups catering to niche interests and communities.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.subPoint}>
+                                    <div className={styles.finalHeading}>
+                                        <img/>
+                                        <h3>COMMUNITY</h3>
+                                    </div>
+                                    <div className={styles.finalText}>
+                                        <p>Reflecting the horizontal scroll above, friends with the most interactions appear here, with the option to view more. Requests and suggestions are also located in this section.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.subPoint}>
+                                    <div className={styles.finalHeading}> 
+                                        <img/>
+                                        <h3>LEADERBOARD</h3>
+                                    </div>
+                                    <div className={styles.finalText}>
+                                        <p>Overview of your achievements (exchanges) and your rankings among friends.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.finalCont}>
+                        <div className={styles.darkGreen}>
+                            <h2>LEADERBOARD</h2>
+                        </div>
+                        <div className={styles.halfGreen}>
+                            <div className={styles.left}>
+                                <h3>💬  Community Building</h3>
+                                <h3>💚  Building Trust  </h3>
+                            </div>
+                            <div className={styles.middle}>
+                                <img src={homePage} alt="" />
+                            </div>
+                            <div className={styles.right}>
+                                <div className={styles.subPoint}>
+                                    <div className={styles.finalHeading}>
+                                        <img/>
+                                        <h3>PUBLICIZING EXCHANGES </h3>
+                                    </div>
+                                    <div className={styles.finalText}>
+                                        <p>Displaying exchange counts under each user highlights achievements, measures activity, and fosters app-wide competition.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.subPoint}>
+                                    <div className={styles.finalHeading}>
+                                        <img/>
+                                        <h3>YOUR RANKING</h3>
+                                    </div>
+                                    <div className={styles.finalText}>
+                                        <p>Highlighting your rank among friends on a mobile app leaderboard encourages competition while  motivates engagement within app.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.finalCont}>
+                        <div className={styles.darkGreen}>
+                            <h2>ACTIVITY FEED</h2>
+                        </div>
+                        <div className={styles.halfGreen}>
+                            <div className={styles.left}>
+                                <h3>⚠️  Accountability</h3>
+                                <h3>💚  Building Trust</h3>
+                                <h3>💬  Community Building</h3>
+                            </div>
+                            <div className={styles.middle}>
+                                <img src={homePage} alt="" />
+                            </div>
+                            <div className={styles.right}>
+                                <div className={styles.subPoint}>
+                                    <div className={styles.finalHeading}>
+                                        <img/>
+                                        <h3>PUBLICIZING EXCHANGES</h3>
+                                    </div>
+                                    <div className={styles.finalText}>
+                                        <p>Inspired by Venmo's social aspect of lending and borrowing, publicizing this encourages users to feel more accountable.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.subPoint}>
+                                    <div className={styles.finalHeading}>
+                                        <img/>
+                                        <h3>IMAGES, REACTS, COMMENTS</h3>
+                                    </div>
+                                    <div className={styles.finalText}>
+                                        <p>Users can upload images, react to posts, and comment, inspiring others to engage in borrowing and lending as participation grows.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.subPoint}>
+                                    <div className={styles.finalHeading}> 
+                                        <img/>
+                                        <h3>ENTRY POINT TO PROFILES & ITEMS</h3>
+                                    </div>
+                                    <div className={styles.finalText}>
+                                        <p>Users can click on items and profiles within this feed for easy access (requesting use) or to view someone's inventory.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.finalCont}>
+                        <div className={styles.darkGreen}>
+                            <h2>PROFILE PAGE</h2>
+                        </div>
+                        <div className={styles.halfGreen}>
+                            <div className={styles.left}>
+                                <h3>⚠️  Accountability</h3>
+                                <h3>💚  Building Trust</h3>
+                            </div>
+                            <div className={styles.middle}>
+                                <img src={homePage} alt="" />
+                            </div>
+                            <div className={styles.right}>
+                                <div className={styles.subPoint}>
+                                    <div className={styles.finalHeading}>
+                                        <img/>
+                                        <h3>SLIDE UP PROFILE</h3>
+                                    </div>
+                                    <div className={styles.finalText}>
+                                        <p>Access someone's profile directly from the borrowing feed.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.subPoint}>
+                                    <div className={styles.finalHeading}>
+                                        <img/>
+                                        <h3>REQUEST FORM</h3>
+                                    </div>
+                                    <div className={styles.finalText}>
+                                        <p>Send a request for an item by filling out necessary information such as the pickup time, pickup person, and return process.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.subPoint}>
+                                    <div className={styles.finalHeading}> 
+                                        <img/>
+                                        <h3>CARD VIEW OF ALL ITEMS</h3>
+                                    </div>
+                                    <div className={styles.finalText}>
+                                        <p>All items are displayed on separate cards for easier organization and distinction between them.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr className="line"/>
+
+                    <h1>A SPECIAL THANKS TO...</h1>
+                    <p>My lovely team and Dante, the founder of Community Gearbox, met with us every week to discuss his future vision for his startup and provide feedback on our designs. Working with a startup founder has deepened my passion for creating products that will not only support the company's mission but also deliver value to its users.</p>
+
+                    <img src={groupPic} alt="" />
+
                 </div>
             </div>
             <Contact />

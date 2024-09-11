@@ -16,10 +16,30 @@
 
 .gearbox h1 {
     font-family: 'Karla Regular';
+    font-size: 27px;
+}
+
+.gearbox h4 {
+    font-family: 'Karla Regular';
+
+}
+
+.bold {
+    font-family: 'Karla Bold';
+}
+
+.gearbox p {
+    font-family: 'Karla Regular';
+    font-size: 17px;
 }
 
 .intro h3 {
     font-family: 'Livvic Bold';
+    font-size: 18px;
+}
+
+.intro p {
+    font-size: 18px;
 }
 
 .intro {
@@ -72,12 +92,18 @@
     border: none;
     border-radius: 3px;
     padding: 8px 22px;
+    cursor: pointer;
 }
 
 .skipCont {
     display: flex;
     justify-content: center;
-    margin-bottom: 120px;
+    margin-bottom: 110px;
+}
+
+.whatIsCont h2 {
+    font-size: 23px;
+    font-family: 'Karla Bold Italic'
 }
 
 .gridWrapper {
@@ -85,6 +111,51 @@
     grid-template-columns: 1.4fr 0.6fr;
     gap: 100px;
     background-color: #EEF3D8;
+    padding: 50px 90px;
+}
+
+.gridWrapper img {
+    height: 100%;
+}
+
+.whatIsCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hypoContainer {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hypoContainer img {
+    width: 59%;
+}
+
+.hypothesis h4 {
+    color: #797979;
+    margin-bottom: 12px;
+}
+
+.hypothesis p {
+    font-size: 17px;
+    margin-top: 12px;
+    margin-bottom: 120px;
+}
+
+.hypothesis a {
+    text-decoration: none;
+    font-family: 'Karla Medium';
+    color: #659B61; 
+}
+
+.shortLine {
+    width: 97%;
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .tag {
@@ -99,14 +170,24 @@
 
 .rightSide {
     background-color: #EEF3D8;
-    padding: 20px 30px;
+    padding: 45px 30px 1px;
     width: 100%;
     display: flex;
     flex-direction: row;
+    gap: 110px;
+    height: 180px;
 }
 
 .rightSideContent {
     font-family: 'Livvic Medium';
+    width: 74%;
+    font-size: 21px;
+}
+
+.rightSide img {
+    margin-top: 10px;
+    height: 50%;
+    width: auto;
 }
 
 .bulletPoint {

@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import styles from '../css/CommunityGearbox.module.css';
 import communityGearbox from '../images/community-gearbox.jpeg';
 import { Helmet } from "react-helmet";
@@ -29,6 +30,12 @@ import homePage from '../images/home-page-gif.gif';
 import groupPic from '../images/gearbox-group-pic.png';
 
 export default function CommunityGearbox() {
+
+    const finalDesignsRef = useRef(null);
+    const scrollToFinalDesigns = () => {
+        finalDesignsRef.current.scrollIntoView({ behavior: 'instant' });
+    };
+
     return (
         <div>
             <Helmet>
@@ -67,12 +74,12 @@ export default function CommunityGearbox() {
                         </div>
                     </div>
                     <div className={styles.skipCont}>
-                        <button className={styles.skip}>skip here to final designs</button>
+                        <button className={styles.skip} onClick={scrollToFinalDesigns}>skip here to final designs</button>
                     </div>
                     
                     <h1>⚙️ WHAT IS COMMUNITY GEARBOX?</h1>
                     <div className={styles.gridWrapper}>
-                        <div>
+                        <div className={styles.whatIsCont}>
                             <p>Community Gearbox is a platform where people can <span className={`${styles.green} bold`}>lend and borrow items for free,</span> hence building deeper connections, decreasing individual consumption, and creating an abundance of shared resources.</p>
                             <h2 className={`${styles.green} bold`}>“Together we have so much”</h2>
                         </div>
@@ -82,27 +89,27 @@ export default function CommunityGearbox() {
                         <div className={styles.hypothesis}>
                             <h1>“A REAL SENSE OF ABUNDANCE”</h1>
                             <h4>HYPOTHESIS</h4>
-                            <hr/>
+                            <hr className={styles.shortLine}/>
                             <p>the average group of millennial friends have a surprising amount of things to share with each other - somewhere between $20k to $40k worth between them</p>
                             <a href="https://communitygearbox.com/">https://communitygearbox.com/</a>
                         </div>
                         <img src={hypoImg} alt=""/>
                     </div>
 
-                    <hr className="line"/>
+                    <hr className="line" style={{marginTop:"30px", marginBottom: "70px"}}/>
 
                     <h1>PROBLEM SCOPE</h1>
-                    <p>The CEO approached us with the challenge of enhancing the collaborative aspects of this platform, with the aim of making the borrowing and lending experience more enjoyable and rewarding. The objective was to create an environment where individuals lending items not only feel valued but also encouraged to share more.</p>
-                    <div className={styles.tag}>
+                    <p className={styles.gray}>The CEO approached us with the challenge of enhancing the collaborative aspects of this platform, with the aim of making the borrowing and lending experience more enjoyable and rewarding. The objective was to create an environment where individuals lending items not only feel valued but also encouraged to share more.</p>
+                    <div className={styles.tag} style={{marginTop:"40px"}}>
                         <div className={styles.leftSide}></div>
                         <div className={styles.rightSide}>
-                            <p className={styles.rightSideContent}>HMW Design more collaborative features within Community Gearbox to make borrowing amongst a network of trusting people delightful and/or rewarding, so people lending items feel appreciated and compelled to share more and borrowers think of Community Gearbox before purchasing a new item?</p>
+                            <p className={styles.rightSideContent}>HMW Design more <span className={styles.bold}>collaborative features</span> within Community Gearbox to make borrowing amongst a network of <span className={styles.bold}>trusting</span> people <span className={styles.bold}>delightful</span> and/or <span className={styles.bold}>rewarding</span>, so people lending items feel appreciated and compelled to share more and borrowers think of Community Gearbox before purchasing a new item?</p>
                             <img src={microSparkle} alt="" />
                         </div>
                     </div>
-                    <hr className="line"/>
+                    <hr className="line"  style={{marginTop:"70px", marginBottom: "70px"}}/>
                     <h1>BREAKING DOWN THE PROBLEM</h1>
-                    <p>Wow, that was a mouthful! Let's break down the problem scope into bite-sized pieces.</p>
+                    <p className={styles.gray}>Wow, that was a mouthful! Let's break down the problem scope into bite-sized pieces.</p>
                     <div className={styles.hmw}>
                         <div className={styles.bulletPoint}>
                             <p className={styles.number}>1</p>
@@ -296,8 +303,8 @@ export default function CommunityGearbox() {
                     <p>Our team created low-fidelity and mid-fidelity designs to help us vision out the designs a lot better. These are some of the many screens we designed to explore our ideas further. </p>
                     <img src={lofi} alt="" />
 
-                    <hr className="line"/>
-                    <h1>🪄 FINAL DESIGNS (TA-DA!)</h1>
+                    <hr className="line" ref={finalDesignsRef}/>
+                    <h1 >🪄 FINAL DESIGNS (TA-DA!)</h1>
                     
                     <div className={styles.finalCont}>
                         <div className={styles.darkGreen}>

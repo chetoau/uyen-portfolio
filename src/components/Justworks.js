@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import styles from '../css/Justworks.module.css';
 import justworks from '../images/justworks.jpeg';
 import { Helmet } from "react-helmet";
@@ -37,6 +38,12 @@ import jw_landing from '../images/jw_landingPage.gif';
 
 
 export default function Justworks() {
+
+    const finalDesignsRef = useRef(null);
+    const scrollToFinalDesigns = () => {
+        finalDesignsRef.current.scrollIntoView({ behavior: 'instant' });
+    };
+
     return (
         <div>
             <Helmet>
@@ -69,6 +76,9 @@ export default function Justworks() {
                             <p>In the summer of 2023, I interned at Justworks, a financial tech company that aims to level the playing field for small businesses. I designed an end-to-end project, seamlessly integrating a mobile directory into their new platform, enhancing internal communication for employees. This feature was shipped in February 2024.</p>
                             <p>Additionally, I built design components for a smooth directory integration into the company's mobile product ecosystem.</p>
                         </div>
+                    </div>
+                    <div className={styles.skipCont}>
+                        <button className={styles.skip} onClick={scrollToFinalDesigns}>skip here to final designs</button>
                     </div>
                     <img src={justworksAbout} alt=""/>
                     <hr className={styles.line}/>
@@ -200,7 +210,7 @@ export default function Justworks() {
                     <p className={styles.lightGray}>While the endless possibilities exist, loading all employees simultaneously poses a threat to user experience, potentially causing sluggishness or lag within the app. To tackle this issue, I collaborated closely with our engineering team to pinpoint the optimal solution.</p>
                     <p className={styles.gray}>For the initial page load, we've strategically chosen to load the first set of 50 employees. As users navigate through the list, and they approach the last 25 names displayed, our system initiates the loading of an additional 50 names. This sweet spot ensures that users experience a smooth and uninterrupted browsing experience, maintaining a harmonious balance between usability and performance.</p>
 
-                    <hr className={styles.line}/>
+                    <hr className={styles.line} ref={finalDesignsRef}/>
                     <h3>🪄 FINAL DESIGNS (TA-DA!)  </h3>
                     <p className={styles.gray}>After many iterations and feedback from everyone from the team, these are the final designs. </p>
 

@@ -113,6 +113,23 @@
     flex-direction: column;
 }
 
+.skip {
+    background-color: #EDF3FF;
+    color: #1E98FE;
+    font-family: 'Karla Bold Italic';
+    font-size: 19px;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 22px;
+    cursor: pointer;
+}
+
+.skipCont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
 .gray {
     color: #7C7C7C;
     font-family: 'Livvic';

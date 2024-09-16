@@ -91,16 +91,6 @@
     
 }
 
-.previously {
-    font-family: 'Livvic Bold'
-
-}
-
-.previouslyText {
-    font-family: 'Karla Regular';
-    letter-spacing: 1px;
-}
-
 .aboutme ul {
     margin-left: -20px;
 }
@@ -109,19 +99,32 @@
     padding-bottom: 10px;
 }
 
-.previouslySection {
-    display: flex;
-    flex-direction: row;
-    gap: 45px;
-}
-
-.previouslyText ul {
-    padding-left: 15px;
-    line-height: 25px;
-}
-
 .aboutPerson {
     width: 390px;
+}
+
+.previouslySection h1 {
+    font-family: 'Karla Bold';
+    color: #5E6167;
+    font-size: 36px;
+}
+
+.previouslySection h4 {
+    font-family: 'Karla Bold';
+    color: #3F3F3F;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.previouslySection p {
+    font-family: 'Karla Regular';
+    font-size: 17px;
+    color: #828282;
+    margin-bottom: 20px;
+}
+
+.orange {
+    color: #F5481A;
 }
 
 @media screen and (max-width: 1150px) {

@@ -39,20 +39,19 @@ export default function About() {
                         <img src={aboutdoodles} className={`${styles.doodlesMobile} ${styles.images}`} width="100%" alt=""/>
                     </div>
                     <div className={styles.previouslySection}>
-                        <div className={styles.previouslyText}>
-                            <h1 className={styles.previously}>My journey thus far...</h1>
-                            <ul>
-                                <li className={styles.previouslyText}><span className="bold">Justworks,</span> Product Design Intern (Payments & Taxes Team ‘24) </li>
-                                <li className={styles.previouslyText}><span className="bold">Pinterest,</span> Product Design Consultant</li>
-                                <li className={styles.previouslyText}><span className="bold">Justworks,</span> Product Design Intern (Mobile Team, ‘23)</li>
-                                <li className={styles.previouslyText}><span className="bold">Peet's Coffee,</span> Design Intern</li>
-                                <li className={styles.previouslyText}><span className="bold">Community Gearbox,</span> Product Design Consultant</li>
-                                <li className={styles.previouslyText}><span className="bold">Innovative Design,</span> VP of Marketing</li>
-                                <li className={styles.previouslyText}><span className="bold">Design at Berkeley,</span> VP of Marketing</li>
-                                <li className={styles.previouslyText}><span className="bold">Branding Identity and Graphic Design Course,</span> Lead Instructor</li>
-                            </ul>
-                        </div>
-                        <img src={aboutPerson} className={styles.aboutPerson} width="100%" alt="Uyen Phan"/>
+                        <h1>Work Experience</h1>
+                        <h4><span className={styles.orange}>Justworks,</span> Product Design Intern (Payments & Taxes Team), 2024 </h4>
+                        <p>Designed two distinct editing features and workflows for the off-boarding process, aimed at improving accuracy, credibility, and efficiency for both internal and external users when submitting termination claims.</p>
+                        <h4><span className={styles.orange}>Justworks,</span> Product Design Intern (Mobile Team), 2023</h4>
+                        <p>Design a mobile directory from 0 to 1 for the Justworks mobile app integrating  into their new platform, enhancing internal communication for employees. </p>
+                        <h4><span className={styles.orange}>Pinterest,</span> Product Designer (Contract), 2023</h4>
+                        <p>Led research to identify SMB pain points and designed high-fidelity features to improve new and returning user experiences on the Ad Creation process. </p>
+                        <h4><span className={styles.orange}>Unilever,</span> Design Project Manager (Contract), 2024</h4>
+                        <p>Mentored a team of four consultants to design sustainable packaging for Unilever's Dove Men products - initiating discussions on sustainable change across Dove’s packaging ecosystem.</p>
+                        <h4><span className={styles.orange}>Community Gearbox,</span> UX Designer (Contract), 2023</h4>
+                        <p>Shipped 3 high-fidelity features to boost accountability and community engagement, validated trust-building methods through user research to identify patterns in users' values and priorities related to lending and borrowing.</p>
+                        <h4><span className={styles.orange}>Peet’s Coffee,</span> Design Intern, 2022</h4>
+                        <p>Enhanced Peet’s website by improving weak user flows and screen layouts, while collaborating with creative, marketing, product, and content teams to design and ship 50+ assets for the holidays.</p>
                     </div>
                     
                 </div>

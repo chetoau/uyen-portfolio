@@ -9,12 +9,14 @@
 
 .pinterest h3 {
     font-size: 27px;
-    font-family: 'Karla Regular'
+    font-family: 'Karla Regular';
+    font-weight: normal;
 }
 
 .pinterest h2 {
     font-size: 27px;
-    font-family: 'Karla Regular'
+    font-family: 'Karla Regular';
+    font-weight: normal;
 }
 
 .lightGray {
@@ -229,6 +231,7 @@
     margin-bottom: 0px;
     font-family: 'Karla Regular';
     font-size: 20px;
+    font-weight: normal;
 }
 
 .inquireChunk2 p {
@@ -240,6 +243,7 @@
     margin-bottom: 0px;
     font-family: 'Karla Regular';
     font-size: 20px;
+    font-weight: normal;
 }
 
 .inquireChunk2 {
@@ -773,6 +777,7 @@
     color:#BD081C;
     font-family: "Karla Italic";
     font-size: 25px;
+    font-weight: normal;
 }
 
 .metricsChild p {

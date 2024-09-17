@@ -27,10 +27,10 @@ import combineBoth from '../images/justworks-combine-both.png';
 import dropDown from '../images/justworks-dropdown.png';
 import editEntryPoint from '../images/justworks-edit-entry-point.png';
 import separationForm from '../images/justworks-edit-separation-form.png';
-import singleSelect from '../images/justworks-single-select.png';
-import uploadFiles from '../images/justworks-upload-files.png';
-import textEditing from '../images/justworks-text-editing.png';
-import multiSelect from '../images/justworks-multi-select.png';
+import singleSelect from '../images/justworks-single-select.gif';
+import uploadFiles from '../images/justworks-upload-files.gif';
+import textEditing from '../images/justworks-text-editing.gif';
+import multiSelect from '../images/justworks-multi-select.gif';
 import datePickers from '../images/justworks-date-pickers.png';
 import finalEntryPoint from '../images/justworks-final-entry-point.gif';
 import pointLine from '../images/justworks-point-line.png';
@@ -49,6 +49,11 @@ import actionNotice from '../images/justworks-actions-and-notice.png';
 import subtitles from '../images/justworks-subtitles.png';
 import fullStepper from '../images/justworks-stepper-full.png';
 import linePoint from '../images/justworks-linepoint.png';
+import radioButtons from '../images/justworks-radio-buttons.png';
+import documentUploads from '../images/justworks-document-uploads.png';
+import textField from '../images/justworks-text-field.png';
+import inputFields from '../images/justworks-input-fields.png';
+import datePickersGif from '../images/justworks-date-pickers-gif.gif';
 
 export default function JustworksEditing() {
 
@@ -325,11 +330,55 @@ export default function JustworksEditing() {
           <hr className={styles.line} />
           <h4 style={{ fontFamily: "Karla Bold" }}>IN-LINE EDITING USE CASES ✏️ </h4>
           <h4 style={{ fontFamily: "Karla Bold", color: "#325B5B" }}>The form includes various editing states: inline text editing, single select, multi-select, date picker, file uploads, and more.</h4>
-          <img src={singleSelect} style={{marginTop: "60px"}}/>
-          <img src={uploadFiles} style={{marginTop: "40px"}}/>
-          <img src={textEditing} style={{marginTop: "40px"}}/>
-          <img src={multiSelect} style={{marginTop: "40px"}}/>
-          <img src={datePickers} style={{marginTop: "40px"}}/>
+          <div className={styles.inlineContainer}>
+            <div className={styles.inlineLeft}>
+              <img src={radioButtons} alt=""/>
+            </div>
+            <div className={styles.inlineRight}>
+              <h4>SINGLE SELECT</h4>
+              <img src={singleSelect} alt=''/>
+            </div>
+          </div>
+
+          <div className={styles.inlineContainer}>
+            <div className={styles.inlineLeft}>
+              <img src={documentUploads} alt=""/>
+            </div>
+            <div className={styles.inlineRight}>
+              <h4>UPLOAD FILES</h4>
+              <img src={uploadFiles} alt=''/>
+            </div>
+          </div>
+
+          <div className={styles.inlineContainer}>
+            <div className={styles.inlineLeft}>
+              <img src={textField} alt=""/>
+            </div>
+            <div className={styles.inlineRight}>
+              <h4>IN-LINE TEXT EDITING</h4>
+              <img src={textEditing} alt=''/>
+            </div>
+          </div>
+
+          <div className={styles.inlineContainer}>
+            <div className={styles.inlineLeft}>
+              <img src={inputFields} alt=""/>
+            </div>
+            <div className={styles.inlineRight}>
+              <h4>MULTI-SELECT</h4>
+              <img src={multiSelect} alt=''/>
+            </div>
+          </div>
+
+          <div className={styles.inlineContainer}>
+            <div className={styles.inlineLeft}>
+              <img src={datePickers} alt=""/>
+            </div>
+            <div className={styles.inlineRight}>
+              <h4>DATE PICKERS</h4>
+              <img src={datePickersGif} alt=''/>
+            </div>
+          </div>
 
           <hr className={styles.line} ref={finalDesignsRef} />
           <h1>🪄 TA-DA! FINAL DESIGNS </h1>

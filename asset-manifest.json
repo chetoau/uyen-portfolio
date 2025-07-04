@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.496c66e5.css",
-    "main.js": "/static/js/main.01e98471.js",
+    "main.css": "/static/css/main.11546d19.css",
+    "main.js": "/static/js/main.dbb9e3a1.js",
     "static/media/jw_thanks.png": "/static/media/jw_thanks.ee7d14dd3230bd4b8abc.png",
     "static/media/innodAssets3.png": "/static/media/innodAssets3.3916f812f0f5ff03f5b9.png",
     "static/media/profile-page.gif": "/static/media/profile-page.aa9265c529b87f6583dc.gif",
@@ -118,6 +118,7 @@
     "static/media/affinityanddot.jpg": "/static/media/affinityanddot.a330786c41c0181bff99.jpg",
     "static/media/prizes 2.jpg": "/static/media/prizes 2.5109af604d1a6517c4ec.jpg",
     "static/media/smbChallenges.png": "/static/media/smbChallenges.daa21b44d36609e0f717.png",
+    "static/media/tinder.png": "/static/media/tinder.1402e42d03975912ce48.png",
     "static/media/peetsalbertsonad2.jpg": "/static/media/peetsalbertsonad2.b2b3dae220cf59e3faea.jpg",
     "static/media/justworks-internal-facing.png": "/static/media/justworks-internal-facing.c2e7640d36cd74af76bd.png",
     "static/media/avgMarket.png": "/static/media/avgMarket.86f42fa0b2a28f916dec.png",
@@ -145,6 +146,7 @@
     "static/media/Poster 2.jpg": "/static/media/Poster 2.6fc894dad6e50bd75cda.jpg",
     "static/media/refigmaanimation.jpg": "/static/media/refigmaanimation.2ff80a24f2ebe9de0862.jpg",
     "static/media/spacingInformation.png": "/static/media/spacingInformation.3bf41c24750de2160836.png",
+    "static/media/tinder-wip.png": "/static/media/tinder-wip.31b55495b7d255f6d0b9.png",
     "static/media/gearbox-concept-mapping.png": "/static/media/gearbox-concept-mapping.44d0234482d2a4aad9ad.png",
     "static/media/flowerpicframe.jpg": "/static/media/flowerpicframe.bcdd56e53efeaf57d761.jpg",
     "static/media/soler-brand-reasoning.png": "/static/media/soler-brand-reasoning.08968fe057e0ed16ed34.png",
@@ -269,6 +271,7 @@
     "static/media/Livvic-Regular.ttf": "/static/media/Livvic-Regular.9994035d65e433690b4a.ttf",
     "static/media/Livvic-Medium.ttf": "/static/media/Livvic-Medium.e1727d156b658481f5c4.ttf",
     "static/media/pinterest-cover.png": "/static/media/pinterest-cover.4784cb79f1e607802cad.png",
+    "static/media/tinder-celebration.png": "/static/media/tinder-celebration.b7c81b71f4a385d58ee5.png",
     "static/media/flowercolors.jpg": "/static/media/flowercolors.40145dc1f154dd8caa2f.jpg",
     "static/media/soler-typography.jpg": "/static/media/soler-typography.8449ac1ba99832a2fe47.jpg",
     "static/media/sfmoma-cover.jpg": "/static/media/sfmoma-cover.9fd566165c5bc074c2e4.jpg",
@@ -328,16 +331,17 @@
     "static/media/relogo.png": "/static/media/relogo.363af67572a9932d7999.png",
     "static/media/Margin DEMO.otf": "/static/media/Margin DEMO.5da5c7ad9f35173b82fd.otf",
     "static/media/remeaning.png": "/static/media/remeaning.07e0b28bb79bbae9930d.png",
+    "static/media/tinder-words.png": "/static/media/tinder-words.d869d0e8d42fbec673fd.png",
     "static/media/bloom-sticker.png": "/static/media/bloom-sticker.2e051804c1a0efb4feb1.png",
     "static/media/microSparkle.png": "/static/media/microSparkle.424eb5e47d029d57c0a2.png",
     "static/media/hagiaproextrabold.ttf": "/static/media/hagiaproextrabold.aa7b5a0d4a4d35baac99.ttf",
     "static/media/rankings.png": "/static/media/rankings.7ef80a01d9bc78dba608.png",
     "index.html": "/index.html",
-    "main.496c66e5.css.map": "/static/css/main.496c66e5.css.map",
-    "main.01e98471.js.map": "/static/js/main.01e98471.js.map"
+    "main.11546d19.css.map": "/static/css/main.11546d19.css.map",
+    "main.dbb9e3a1.js.map": "/static/js/main.dbb9e3a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.496c66e5.css",
-    "static/js/main.01e98471.js"
+    "static/css/main.11546d19.css",
+    "static/js/main.dbb9e3a1.js"
   ]
 }

@@ -38,6 +38,24 @@
     margin-bottom: 40px;
 }
 
+.tinderBold {
+    color: #FF4458;
+    font-family: 'Karla Bold';
+}
+
+.gray {
+    font-size: 25px;
+    color: gray;
+}
+
+.tinderIntroCont {
+    padding-right: 40px;
+}
+
+.tinderFlame {
+    width: 20px;
+}
+
 .right ul {
     padding-left: 18px;
     font-size: 17px;

@@ -14,6 +14,7 @@ import OpenProject from './components/OpenProject';
 import CommunityGearbox from './components/CommunityGearbox';
 import InnovativeDesign from './components/InnovativeDesign';
 import Pinterest from './components/Pinterest';
+import Tinder from './components/Tinder';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import JustworksEditing from './components/JustworksEditing';
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="/innovative-design" element={<InnovativeDesign />} />
           <Route path="/soler" element={<Soler />} />
           <Route path="/pinterest" element={<Pinterest />} />
+          <Route path="/tinder" element={<Tinder />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>

@@ -18,7 +18,7 @@ export default function About() {
                     <div className={styles.content}>
                         <div className={styles.left}>
                             <div style={{width: "fit-content", position: "relative"}}>
-                                <img src={aboutpic} className={styles.images} width="100%" alt="Uyen Phan"/>
+                                <img src={aboutpic} className={styles.aboutPic} width="100%" alt="Uyen Phan"/>
                                 <img src={aboutsun} className={`${styles.sun} spinning`} width="100%" alt=""/>
                                 <img src={aboutstar} className={`${styles.star} twinkle`} width="100%" alt=""/>
                             </div>

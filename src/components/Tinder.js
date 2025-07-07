@@ -2,7 +2,7 @@ import styles from '../css/Tinder.module.css';
 import tinderCover from '../images/tinder-words.png'
 import Contact from './Contact';
 import { Helmet } from "react-helmet";
-import celebration from '../images/tinder-celebration.png';
+import celebration from '../images/tinder-celebration.gif';
 import wip from '../images/tinder-wip.png';
 
 export default function Tinder() {
@@ -26,15 +26,15 @@ export default function Tinder() {
                         <div className={styles.infoCont}>
                         <div className={styles.info}>
                             <h3>ROLE</h3>
-                            <p>PRODUCT DESIGN INTERN</p>
+                            <p>ASSOCIATE PRODUCT DESIGNER</p>
                         </div>
                         <div className={styles.info}>
                             <h3>TEAM</h3>
-                            <p>STATE-UNEMPLOYMENT-INSURANCE (SUI)</p>
+                            <p>ARTS & SCIENCE LAB (ASL), TINDER</p>
                         </div>
                         <div className={styles.info}>
                             <h3>TIMELINE</h3>
-                            <p>MAY-AUGUST 2024</p>
+                            <p>MARCH 2025 - PRESENT</p>
                         </div>
                         </div>
                         <div>

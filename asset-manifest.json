@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.11546d19.css",
-    "main.js": "/static/js/main.dbb9e3a1.js",
+    "main.css": "/static/css/main.189f19d7.css",
+    "main.js": "/static/js/main.4de32573.js",
     "static/media/jw_thanks.png": "/static/media/jw_thanks.ee7d14dd3230bd4b8abc.png",
     "static/media/innodAssets3.png": "/static/media/innodAssets3.3916f812f0f5ff03f5b9.png",
     "static/media/profile-page.gif": "/static/media/profile-page.aa9265c529b87f6583dc.gif",
     "static/media/innodAssets.png": "/static/media/innodAssets.caa2ae41a3765be7205f.png",
     "static/media/innodAssets2.png": "/static/media/innodAssets2.25de534826feb47c7e4b.png",
     "static/media/activity-feed.gif": "/static/media/activity-feed.5f866fc7765a1e935bd4.gif",
+    "static/media/aboutpic.png": "/static/media/aboutpic.0efe886e81652aa801fc.png",
     "static/media/justworks-people-1.png": "/static/media/justworks-people-1.342d5210b20d7ad811e1.png",
     "static/media/gearbox-group-pic.png": "/static/media/gearbox-group-pic.fdf6dc2e6a1d3b9964ce.png",
     "static/media/justworks-people-2.png": "/static/media/justworks-people-2.1a2b33873420014a4b25.png",
@@ -17,7 +18,6 @@
     "static/media/final_profilePage.gif": "/static/media/final_profilePage.3128ae3426fa05d839df.gif",
     "static/media/mlk.png": "/static/media/mlk.bcfcad1eb4e847eeea80.png",
     "static/media/justworks-final-viewpoint.gif": "/static/media/justworks-final-viewpoint.43328feee2a576545fa2.gif",
-    "static/media/aboutpic.png": "/static/media/aboutpic.35a1ddac047ce16853fe.png",
     "static/media/home-page-gif.gif": "/static/media/home-page-gif.0b0014962405b6f1f30a.gif",
     "static/media/justworks-final-inline-editing.gif": "/static/media/justworks-final-inline-editing.f2ae665e3bf3a38cf763.gif",
     "static/media/finalBackgroundInfo.gif": "/static/media/finalBackgroundInfo.9479f0ba5372518d8f7a.gif",
@@ -205,12 +205,12 @@
     "static/media/flowermobilelistening.png": "/static/media/flowermobilelistening.3957158b44c1691395ed.png",
     "static/media/Instagram Grid 2.jpg": "/static/media/Instagram Grid 2.6b0d3e7040704ca11cd2.jpg",
     "static/media/RGB Asset 1.jpg": "/static/media/RGB Asset 1.7cf32f09b3a9a624036b.jpg",
-    "static/media/aboutdoodles.png": "/static/media/aboutdoodles.b96846829db3a05e58b8.png",
     "static/media/justworks-editing-flow-chart.png": "/static/media/justworks-editing-flow-chart.f73f1a6df97cc51286ad.png",
     "static/media/sniff-home.jpg": "/static/media/sniff-home.05b34d1b0d2c8321783e.jpg",
     "static/media/Instagram Grid 3.jpg": "/static/media/Instagram Grid 3.139ce31960725bac569c.jpg",
     "static/media/justworks-input-fields.png": "/static/media/justworks-input-fields.eef8d47f0ff00d9abb64.png",
     "static/media/justworks-design-flow.png": "/static/media/justworks-design-flow.e2df9a9f132c6e648e4f.png",
+    "static/media/aboutdoodles.png": "/static/media/aboutdoodles.bbef5453dee54b6d0815.png",
     "static/media/marchSuccess.png": "/static/media/marchSuccess.e90fd001d8c198812be5.png",
     "static/media/guidance_current.png": "/static/media/guidance_current.026d6e820ab5265e4dc2.png",
     "static/media/justworks-date-pickers.png": "/static/media/justworks-date-pickers.d9530dc3fee80fc3cb19.png",
@@ -237,7 +237,6 @@
     "static/media/Instagram Grid 6.jpg": "/static/media/Instagram Grid 6.8af933d6ee1ea3dece9a.jpg",
     "static/media/flower.jpg": "/static/media/flower.e5e4015324b4070ea46b.jpg",
     "static/media/soler-cover.jpg": "/static/media/soler-cover.1f00e6740b543467560e.jpg",
-    "static/media/aboutPerson.png": "/static/media/aboutPerson.266c9df3f5a653808016.png",
     "static/media/re.jpg": "/static/media/re.32e69b7af042ea519d1d.jpg",
     "static/media/reinterviews1.png": "/static/media/reinterviews1.5e67af4029efccb99ab6.png",
     "static/media/openproject-values1.jpg": "/static/media/openproject-values1.e5938003bb5a3ee2cdb2.jpg",
@@ -337,11 +336,11 @@
     "static/media/hagiaproextrabold.ttf": "/static/media/hagiaproextrabold.aa7b5a0d4a4d35baac99.ttf",
     "static/media/rankings.png": "/static/media/rankings.7ef80a01d9bc78dba608.png",
     "index.html": "/index.html",
-    "main.11546d19.css.map": "/static/css/main.11546d19.css.map",
-    "main.dbb9e3a1.js.map": "/static/js/main.dbb9e3a1.js.map"
+    "main.189f19d7.css.map": "/static/css/main.189f19d7.css.map",
+    "main.4de32573.js.map": "/static/js/main.4de32573.js.map"
   },
   "entrypoints": [
-    "static/css/main.11546d19.css",
-    "static/js/main.dbb9e3a1.js"
+    "static/css/main.189f19d7.css",
+    "static/js/main.4de32573.js"
   ]
 }

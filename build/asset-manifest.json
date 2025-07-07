@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.18778206.css",
+    "main.css": "/static/css/main.b888a8d1.css",
     "main.js": "/static/js/main.ca4cae07.js",
     "static/media/jw_thanks.png": "/static/media/jw_thanks.ee7d14dd3230bd4b8abc.png",
     "static/media/innodAssets3.png": "/static/media/innodAssets3.3916f812f0f5ff03f5b9.png",
@@ -336,11 +336,11 @@
     "static/media/hagiaproextrabold.ttf": "/static/media/hagiaproextrabold.aa7b5a0d4a4d35baac99.ttf",
     "static/media/rankings.png": "/static/media/rankings.7ef80a01d9bc78dba608.png",
     "index.html": "/index.html",
-    "main.18778206.css.map": "/static/css/main.18778206.css.map",
+    "main.b888a8d1.css.map": "/static/css/main.b888a8d1.css.map",
     "main.ca4cae07.js.map": "/static/js/main.ca4cae07.js.map"
   },
   "entrypoints": [
-    "static/css/main.18778206.css",
+    "static/css/main.b888a8d1.css",
     "static/js/main.ca4cae07.js"
   ]
 }

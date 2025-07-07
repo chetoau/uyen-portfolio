@@ -56,7 +56,7 @@
 }
 
 .doodles {
-    padding-top: 3em;
+    
 }
 
 .name {
@@ -107,6 +107,7 @@
     font-family: 'Karla Bold';
     color: #5E6167;
     font-size: 36px;
+    margin-top: 90px;
 }
 
 .previouslySection h4 {

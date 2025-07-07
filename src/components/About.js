@@ -4,7 +4,6 @@ import aboutdoodles from '../images/aboutdoodles.png';
 import aboutpic from '../images/aboutpic.png';
 import aboutstar from '../images/aboutstar.png';
 import Contact from './Contact';
-import aboutPerson from '../images/aboutPerson.png'
 import aboutsun from '../images/aboutsun.png';
 
 export default function About() {
@@ -23,23 +22,24 @@ export default function About() {
                                 <img src={aboutsun} className={`${styles.sun} spinning`} width="100%" alt=""/>
                                 <img src={aboutstar} className={`${styles.star} twinkle`} width="100%" alt=""/>
                             </div>
-                            <img src={aboutdoodles} className={`${styles.doodles} ${styles.images}`} width="100%" alt=""/>
                         </div>
                         <div className={styles.aboutme}>
                             <div className={styles.nameSec}>
                                 <p className={styles.name}>I'm Uyen!</p>
                                 <p className={styles.pronouns}>she/her</p>
                             </div>
-                            <p className={styles.details}>Hello! My name is Uyen (as in “win”-ning 💪🏻🏆). I am a recent graduate from UC Berkeley with a major in Cognitive Science & minor in Data Science along with a certificate in Design Innovation.</p>
-                            <p className={styles.details}>Coming from an underrepresented background and being a first-generation student, I’ve navigated the complexities of growing up where, for much of my life, I felt like I was standing at the edge of a cliff. Discovering my passion for design has not only given me clarity but also the confidence to leap across to the other side. </p>
-                            <p className={styles.details}>Design is invisible to the users, but behind the scenes, it taps into the complexity of the human mind. Being able to dig into a wide spectrum of individuals has allowed me to learn more about the diverse perspectives around me. By applying my interdisciplinary background and unique experience, I hope to bring thoughtfulness to my design process. </p>
-                            <p className={styles.details}>In my free time, I love “studying” and exploring different cafes. I am a borderline coffee addict but slowly transitioning to a matcha latte fanatic. I love playing with my doggo Luna and would advocate for her as the world’s cutest and fluffiest doggo! 🐶</p>
+                            <p className={styles.details}>Hey! My name is Uyen (as in “win”-ning 💪🏻🏆).  A UC Berkeley’s alum with degrees in Cognitive Science & Data Science. </p>
+                            <p className={styles.details}>Coming from an underrepresented background and being a first-generation student, I’ve navigated the complexities of growing up where, for much of my life, I felt like I was standing at the edge of a cliff. Discovering my passion for design has not only given me clarity but also the confidence to leap across to the other side.  </p>
+                            <p className={styles.details}>Design is invisible to the users, but behind the scenes, it taps into the complexity of the human mind. Being able to dig into a wide spectrum of individuals has allowed me to learn more about the diverse perspectives around me. </p>
+                            <p className={styles.details}>In my free time, I’m always experimenting with new matcha latte recipes, and I’ll never say no to a concert. I’m also an aspiring vlogger with an endless backlog of footage I haven’t edited yet—but I definitely will soon! :D (this is a lie). </p>
                             
                         </div>
-                        <img src={aboutdoodles} className={`${styles.doodlesMobile} ${styles.images}`} width="100%" alt=""/>
                     </div>
+                    <img src={aboutdoodles} width="100%" alt=""/>
                     <div className={styles.previouslySection}>
                         <h1>Work Experience</h1>
+                        <h4><span className={styles.orange}>Match Group, Tinder,</span> Associate Product Designer, 2025 </h4>
+                        <p>Spearheaded the design and integration of a profile builder in collaboration with Tinder’s AI team, leveraging photo analysis to recommend images that authentically represent users. Iterated on designs to seamlessly integrate the feature into Tinder’s existing design system. Contributed to the future re-architecture of Tinder’s ecosystem. </p>
                         <h4><span className={styles.orange}>Justworks,</span> Product Design Intern (Payments & Taxes Team), 2024 </h4>
                         <p>Designed two distinct editing features and workflows for the off-boarding process, aimed at improving accuracy, credibility, and efficiency for both internal and external users when submitting termination claims.</p>
                         <h4><span className={styles.orange}>Justworks,</span> Product Design Intern (Mobile Team), 2023</h4>

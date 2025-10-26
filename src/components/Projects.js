@@ -43,9 +43,6 @@ export default function Projects() {
                     </div>
                     <div className={styles.right}>
                         <p>Uyen is a <span className={styles.orangeBold}>product designer</span> who aims to weave together simplicity, joy, and connection through bridging the gap between technology and human connection!</p>
-                        <div className={styles.tinderIntroCont}>
-                            <p><span className={styles.gray}>Currently helping people find meaningful connections <span className={styles.tinderBold}>@Tinder</span> <img src={tinderFlame} className={styles.tinderFlame}/></span></p>
-                        </div>
                     </div>
                 </div>
                 <div className={styles.projects}>

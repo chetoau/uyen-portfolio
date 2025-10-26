@@ -47,7 +47,6 @@ export default function Play() {
                         <PlayProject img={SFMoma} name="SF MoMA" subtitle="Halloween Poster" keywords="POSTER DESIGN / DESIGNATHON" description="A poster for SF MoMA Halloween Block Party, celebrating the resilient community post-pandemic." url="/sf-moma" />
 
                         <PlayProject img={SniffSniff} name="Sniff Sniff" subtitle="Hackathon Prize" keywords="HACKATHON / WEBSITE DESIGN" description="Sniff Sniff locates your class Discord/link effortlessly, and Sniffodoo, a bot, provides key channel insights like homework tips, exam dates, and critical updates." url="/sniff-sniff" />
-                        <PlayProject img={re} name="RE:" subtitle="Bridging LDRs" keywords="DESIGN METHODOLOGY / UX / UI" description="RE: is a prompts + recording app designed to foster connection between two individuals, transcending physical barriers." url="/re" />
                     </div>
                 </div>
             </div>
